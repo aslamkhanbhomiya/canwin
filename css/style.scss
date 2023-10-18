@@ -1,0 +1,2004 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-ExtraLight.eot");
+    src: local("../fonts/Poppins ExtraLight"),
+        local("../fonts/Poppins-ExtraLight"),
+        url("../fonts/Poppins-ExtraLight.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Poppins-ExtraLight.woff2") format("woff2"),
+        url("../fonts/Poppins-ExtraLight.woff") format("woff"),
+        url("../fonts/Poppins-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Medium.eot");
+    src: local("../fonts/Poppins Medium"), local("../fonts/Poppins-Medium"),
+        url("../fonts/Poppins-Medium.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Poppins-Medium.woff2") format("woff2"),
+        url("../fonts/Poppins-Medium.woff") format("woff"),
+        url("../fonts/Poppins-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-LightItalic.eot");
+    src: local("../fonts/Poppins Light Italic"),
+        local("../fonts/Poppins-LightItalic"),
+        url("../fonts/Poppins-LightItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Poppins-LightItalic.woff2") format("woff2"),
+        url("../fonts/Poppins-LightItalic.woff") format("woff"),
+        url("../fonts/Poppins-LightItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-ExtraLightItalic.eot");
+    src: local("../fonts/Poppins ExtraLight Italic"),
+        local("../fonts/Poppins-ExtraLightItalic"),
+        url("../fonts/Poppins-ExtraLightItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Poppins-ExtraLightItalic.woff2") format("woff2"),
+        url("../fonts/Poppins-ExtraLightItalic.woff") format("woff"),
+        url("../fonts/Poppins-ExtraLightItalic.ttf") format("truetype");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.eot");
+    src: local("../fonts/Poppins Regular"), local("../fonts/Poppins-Regular"),
+        url("../fonts/Poppins-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Poppins-Regular.woff2") format("woff2"),
+        url("../fonts/Poppins-Regular.woff") format("woff"),
+        url("../fonts/Poppins-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-SemiBold.eot");
+    src: local("../fonts/Poppins SemiBold"), local("../fonts/Poppins-SemiBold"),
+        url("../fonts/Poppins-SemiBold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Poppins-SemiBold.woff2") format("woff2"),
+        url("../fonts/Poppins-SemiBold.woff") format("woff"),
+        url("../fonts/Poppins-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Black.eot");
+    src: local("../fonts/Poppins Black"), local("../fonts/Poppins-Black"),
+        url("../fonts/Poppins-Black.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Poppins-Black.woff2") format("woff2"),
+        url("../fonts/Poppins-Black.woff") format("woff"),
+        url("../fonts/Poppins-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-ExtraBoldItalic.eot");
+    src: local("../fonts/Poppins ExtraBold Italic"),
+        local("../fonts/Poppins-ExtraBoldItalic"),
+        url("../fonts/Poppins-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Poppins-ExtraBoldItalic.woff2") format("woff2"),
+        url("../fonts/Poppins-ExtraBoldItalic.woff") format("woff"),
+        url("../fonts/Poppins-ExtraBoldItalic.ttf") format("truetype");
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-MediumItalic.eot");
+    src: local("../fonts/Poppins Medium Italic"),
+        local("../fonts/Poppins-MediumItalic"),
+        url("../fonts/Poppins-MediumItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Poppins-MediumItalic.woff2") format("woff2"),
+        url("../fonts/Poppins-MediumItalic.woff") format("woff"),
+        url("../fonts/Poppins-MediumItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Light.eot");
+    src: local("../fonts/Poppins Light"), local("../fonts/Poppins-Light"),
+        url("../fonts/Poppins-Light.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Poppins-Light.woff2") format("woff2"),
+        url("../fonts/Poppins-Light.woff") format("woff"),
+        url("../fonts/Poppins-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Bold.eot");
+    src: local("../fonts/Poppins Bold"), local("../fonts/Poppins-Bold"),
+        url("../fonts/Poppins-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Poppins-Bold.woff2") format("woff2"),
+        url("../fonts/Poppins-Bold.woff") format("woff"),
+        url("../fonts/Poppins-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Thin.eot");
+    src: local("../fonts/Poppins Thin"), local("../fonts/Poppins-Thin"),
+        url("../fonts/Poppins-Thin.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Poppins-Thin.woff2") format("woff2"),
+        url("../fonts/Poppins-Thin.woff") format("woff"),
+        url("../fonts/Poppins-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Italic.eot");
+    src: local("../fonts/Poppins Italic"), local("../fonts/Poppins-Italic"),
+        url("../fonts/Poppins-Italic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Poppins-Italic.woff2") format("woff2"),
+        url("../fonts/Poppins-Italic.woff") format("woff"),
+        url("../fonts/Poppins-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-ThinItalic.eot");
+    src: local("../fonts/Poppins Thin Italic"),
+        local("../fonts/Poppins-ThinItalic"),
+        url("../fonts/Poppins-ThinItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Poppins-ThinItalic.woff2") format("woff2"),
+        url("../fonts/Poppins-ThinItalic.woff") format("woff"),
+        url("../fonts/Poppins-ThinItalic.ttf") format("truetype");
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-BlackItalic.eot");
+    src: local("../fonts/Poppins Black Italic"),
+        local("../fonts/Poppins-BlackItalic"),
+        url("../fonts/Poppins-BlackItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Poppins-BlackItalic.woff2") format("woff2"),
+        url("../fonts/Poppins-BlackItalic.woff") format("woff"),
+        url("../fonts/Poppins-BlackItalic.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-BoldItalic.eot");
+    src: local("../fonts/Poppins Bold Italic"),
+        local("../fonts/Poppins-BoldItalic"),
+        url("../fonts/Poppins-BoldItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Poppins-BoldItalic.woff2") format("woff2"),
+        url("../fonts/Poppins-BoldItalic.woff") format("woff"),
+        url("../fonts/Poppins-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-SemiBoldItalic.eot");
+    src: local("../fonts/Poppins SemiBold Italic"),
+        local("../fonts/Poppins-SemiBoldItalic"),
+        url("../fonts/Poppins-SemiBoldItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Poppins-SemiBoldItalic.woff2") format("woff2"),
+        url("../fonts/Poppins-SemiBoldItalic.woff") format("woff"),
+        url("../fonts/Poppins-SemiBoldItalic.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-ExtraBold.eot");
+    src: local("../fonts/Poppins ExtraBold"), local("../fonts/Poppins-ExtraBold"),
+        url("../fonts/Poppins-ExtraBold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Poppins-ExtraBold.woff2") format("woff2"),
+        url("../fonts/Poppins-ExtraBold.woff") format("woff"),
+        url("../fonts/Poppins-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+$success: #1db8ab;
+$primary: #7d54a2;
+$white: #fff;
+$black: #313131;
+$lightBg: #eef2ff;
+$secondryColor: #737373;
+$danger: #ff0000;
+$bggray: #f2eef6;
+$warning: #feca09;
+
+body {
+    font-family: "Poppins";
+}
+
+.bg-primary {
+    background-color: $primary !important;
+}
+
+.text-primary {
+    color: $primary !important;
+}
+
+.text-dark {
+    color: #000 !important;
+}
+
+.text-danger {
+    color: #f00 !important;
+}
+
+.text-success {
+    color: $success !important;
+}
+
+header {
+    .top-bar {
+        background-color: $bggray;
+        padding: 11px 0px;
+    }
+
+    .search-input {
+        width: 100%;
+    max-width: 398.56px;
+    }
+
+    .form-control {
+        background-image: url("data:image/svg+xml,%3Csvg width='19' height='18' viewBox='0 0 19 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14.1671 12.4628L17.3793 15.6743L16.3181 16.7355L13.1066 13.5233C11.9116 14.4812 10.4253 15.0022 8.8938 15C5.1678 15 2.1438 11.976 2.1438 8.25C2.1438 4.524 5.1678 1.5 8.8938 1.5C12.6198 1.5 15.6438 4.524 15.6438 8.25C15.646 9.7815 15.125 11.2678 14.1671 12.4628ZM12.6625 11.9063C13.6144 10.9274 14.146 9.61532 14.1438 8.25C14.1438 5.34975 11.794 3 8.8938 3C5.99355 3 3.6438 5.34975 3.6438 8.25C3.6438 11.1503 5.99355 13.5 8.8938 13.5C10.2591 13.5022 11.5712 12.9706 12.55 12.0188L12.6625 11.9063Z' fill='%237E55A1'/%3E%3C/svg%3E%0A");
+        height: 38px;
+        padding: 8px 10px 8px 16px;
+        background-repeat: no-repeat;
+        background-position: center right 10px;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        overflow: hidden;
+        max-height: 3.6em;
+        line-height: 1.8em;
+    }
+
+    .link-text a {
+        font-size: 14px;
+        font-weight: 500;
+        color: $success;
+        display: inline-block;
+
+        &::after {
+            content: "";
+            display: inline-block;
+            width: 1px;
+            background-color: #bebebe;
+            height: 29px;
+            vertical-align: middle;
+            margin: 0px 21px;
+        }
+    }
+
+    .call-btn {
+        a {
+            display: inline-block;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            text-decoration: none;
+            color: $black;
+            margin-right: 21px;
+
+            svg {
+                margin-right: 6px;
+            }
+        }
+    }
+
+    .social-media {
+        display: flex;
+        align-items: center;
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            border-radius: 4px;
+            background: #e9e0f2;
+            padding: 5px;
+            text-align: center;
+            margin-right: 10px;
+
+            &:last-child {
+                margin: 0px;
+            }
+        }
+    }
+
+    .nav-link {
+        font-size: 16px;
+        font-weight: 500;
+        color: $black;
+        padding: 0px 15px !important;
+    }
+
+    .dropdown-toggle {
+        &::after {
+            content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='8' viewBox='0 0 10 8' fill='none'%3E%3Cpath d='M5.00409 7.00202C4.87248 7.00278 4.74202 6.97755 4.62018 6.92779C4.49835 6.87802 4.38753 6.8047 4.29409 6.71202L0.294092 2.71202C0.105788 2.52371 0 2.26832 0 2.00202C0 1.73571 0.105788 1.48032 0.294092 1.29202C0.482395 1.10371 0.73779 0.997925 1.00409 0.997925C1.27039 0.997925 1.52579 1.10371 1.71409 1.29202L5.00409 4.59202L8.29409 1.30202C8.48539 1.13819 8.73147 1.05258 8.98314 1.0623C9.23482 1.07203 9.47356 1.17636 9.65165 1.35445C9.82975 1.53255 9.93408 1.77129 9.9438 2.02296C9.95352 2.27464 9.86792 2.52071 9.70409 2.71202L5.70409 6.71202C5.51783 6.89676 5.26643 7.00091 5.00409 7.00202Z' fill='%23313131'/%3E%3C/svg%3E");
+            border: 0px;
+            vertical-align: middle;
+        }
+    }
+
+    .btn-contact {
+        .btn {
+            margin-right: 12px;
+            border-radius: 10px;
+            padding: 0px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            padding-right: 11px;
+
+            span {
+                width: 46px;
+                height: 46px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 11px;
+                border-radius: 0px 10px 10px 0px;
+            }
+
+            &.btn-primary {
+                span {
+                    background-color: #643b87;
+                }
+            }
+
+            &.btn-success {
+                margin-right: 0px;
+                span {
+                    background: #1a9b90;
+                }
+
+            }
+        }
+    }
+
+    .navbar {
+        padding: 9px 0px 28px;
+    }
+
+    .navbar-brand {
+        padding: 0px;
+    }
+}
+
+.form-control {
+    border-radius: 10px;
+    background: $white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.02);
+    border: 0px;
+    box-shadow: none !important;
+    color: $black;
+    font-size: 14px;
+    font-weight: 400;
+
+    &::placeholder {
+        color: #7c7c7c;
+    }
+}
+
+.btn-primary {
+    background-color: $primary;
+    border-color: $primary;
+
+    &:hover {
+        background-color: $primary;
+        border-color: $primary;
+        opacity: 0.9;
+    }
+}
+
+.btn-success {
+    background-color: $success;
+    border-color: $success;
+
+    &:hover {
+        background-color: $success;
+        border-color: $success;
+        opacity: 0.9;
+    }
+}
+
+.btn-warning {
+    background-color: $warning;
+    border-color: $warning;
+    color: $black;
+
+    &:hover {
+        background-color: $warning;
+        border-color: $warning;
+        color: $black;
+        opacity: 0.9;
+    }
+}
+
+.btn-outline-primary {
+    color: $primary;
+    border-color: $primary;
+
+    &:hover {
+        background-color: $primary;
+        border-color: $primary;
+    }
+}
+
+.btn {
+    box-shadow: none !important;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.home-slider-sec {
+    .carousel {
+        border-radius: 20px;
+        overflow: hidden;
+
+        button {
+            opacity: 1;
+            width: auto;
+
+            span {
+                background-color: rgba(0, 0, 0, 0.3);
+                height: 75px;
+                width: 39px;
+                border-radius: 0px 10px 10px 0px;
+                backdrop-filter: blur(27px);
+            }
+        }
+
+        .carousel-control-next-icon {
+            border-radius: 10px 0px 0px 10px !important;
+        }
+    }
+}
+
+.big-circle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+p {
+    color: $secondryColor;
+    margin: 0;
+}
+
+.py-65 {
+    padding: 65px 0px;
+}
+
+.pb-65 {
+    padding-bottom: 65px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    color: $black;
+}
+
+.heading-title {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+
+    strong {
+        color: $success;
+    }
+}
+
+.introduction-sec {
+    position: relative;
+
+    img {
+        border-radius: 16px;
+    }
+
+    .heading-title {
+        margin-bottom: 7px;
+    }
+
+    p {
+        span {
+            text-decoration: underline;
+        }
+    }
+
+    .small-circle {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        z-index: -1;
+        transform: translateY(-50%);
+    }
+}
+
+.founder-message-sec {
+    .heading-title {
+        margin-bottom: 23px;
+    }
+
+    .founders-message {
+        position: relative;
+        margin-bottom: 82px;
+
+        &::before {
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            background-color: #d9d9d9;
+            content: "";
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: -1;
+        }
+    }
+
+    .image {
+        padding-bottom: 0px;
+        text-align: center;
+        max-width: 150px;
+    }
+
+    .border-row {
+        display: inline-block;
+        width: 3px;
+        height: 79px;
+        background: linear-gradient(180deg,
+                rgba(217, 217, 217, 1) 50%,
+                rgba(125, 84, 162, 1) 50%);
+    }
+
+    .inside-box {
+        border-radius: 34.5px;
+        width: 100%;
+        max-width: 262px;
+        padding: 15px 39px;
+        margin-top: -7px;
+
+        h3 {
+            color: #fff;
+            font-size: 21px;
+            font-weight: 700;
+            line-height: 20px;
+            text-transform: capitalize;
+            margin-bottom: 2px;
+        }
+
+        small {
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 16px;
+            text-transform: capitalize;
+        }
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+        text-transform: capitalize;
+    }
+
+    .content-inside {
+        max-width: 441px;
+    }
+
+    .card {
+        border-radius: 8px;
+        border: 1px solid #cfcfcf;
+    }
+
+    .text-contents {
+        padding: 9px 14px;
+        background-repeat: no-repeat;
+        background-position: center right 20px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='38' height='38' viewBox='0 0 38 38' fill='none'%3E%3Ccircle cx='1.74782' cy='36.3611' r='1.28395' transform='rotate(-90 1.74782 36.3611)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='1.74782' cy='15.4126' r='1.28395' transform='rotate(-90 1.74782 15.4126)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='8.73073' cy='36.3611' r='1.28395' transform='rotate(-90 8.73073 36.3611)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='8.73073' cy='15.4126' r='1.28395' transform='rotate(-90 8.73073 15.4126)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='15.7132' cy='36.3611' r='1.28395' transform='rotate(-90 15.7132 36.3611)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='15.7136' cy='15.4127' r='1.28395' transform='rotate(-90 15.7136 15.4127)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='22.6961' cy='36.3611' r='1.28395' transform='rotate(-90 22.6961 36.3611)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='22.6961' cy='15.4127' r='1.28395' transform='rotate(-90 22.6961 15.4127)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='29.679' cy='36.3613' r='1.28395' transform='rotate(-90 29.679 36.3613)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='29.679' cy='15.4129' r='1.28395' transform='rotate(-90 29.679 15.4129)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='36.6619' cy='36.3613' r='1.28395' transform='rotate(-90 36.6619 36.3613)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='36.6624' cy='15.4129' r='1.28395' transform='rotate(-90 36.6624 15.4129)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='1.74782' cy='29.3783' r='1.28395' transform='rotate(-90 1.74782 29.3783)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='1.74782' cy='8.42986' r='1.28395' transform='rotate(-90 1.74782 8.42986)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='8.73073' cy='29.3783' r='1.28395' transform='rotate(-90 8.73073 29.3783)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='8.73073' cy='8.42986' r='1.28395' transform='rotate(-90 8.73073 8.42986)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='15.7132' cy='29.3783' r='1.28395' transform='rotate(-90 15.7132 29.3783)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='15.7132' cy='8.42992' r='1.28395' transform='rotate(-90 15.7132 8.42992)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='22.6961' cy='29.3783' r='1.28395' transform='rotate(-90 22.6961 29.3783)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='22.6961' cy='8.42992' r='1.28395' transform='rotate(-90 22.6961 8.42992)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='29.679' cy='29.3785' r='1.28395' transform='rotate(-90 29.679 29.3785)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='29.679' cy='8.4301' r='1.28395' transform='rotate(-90 29.679 8.4301)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='36.6619' cy='29.3785' r='1.28395' transform='rotate(-90 36.6619 29.3785)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='36.6624' cy='8.4301' r='1.28395' transform='rotate(-90 36.6624 8.4301)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='1.74782' cy='22.3955' r='1.28395' transform='rotate(-90 1.74782 22.3955)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='1.74782' cy='1.44701' r='1.28395' transform='rotate(-90 1.74782 1.44701)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='8.73073' cy='22.3955' r='1.28395' transform='rotate(-90 8.73073 22.3955)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='8.73073' cy='1.44701' r='1.28395' transform='rotate(-90 8.73073 1.44701)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='15.7132' cy='22.3956' r='1.28395' transform='rotate(-90 15.7132 22.3956)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='15.7136' cy='1.44707' r='1.28395' transform='rotate(-90 15.7136 1.44707)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='22.6961' cy='22.3956' r='1.28395' transform='rotate(-90 22.6961 22.3956)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='22.6961' cy='1.44707' r='1.28395' transform='rotate(-90 22.6961 1.44707)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='29.679' cy='22.3957' r='1.28395' transform='rotate(-90 29.679 22.3957)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='29.679' cy='1.44725' r='1.28395' transform='rotate(-90 29.679 1.44725)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='36.6624' cy='22.3957' r='1.28395' transform='rotate(-90 36.6624 22.3957)' fill='%23FECA09' fill-opacity='0.26'/%3E%3Ccircle cx='36.6624' cy='1.44725' r='1.28395' transform='rotate(-90 36.6624 1.44725)' fill='%23FECA09' fill-opacity='0.26'/%3E%3C/svg%3E");
+
+        h3 {
+            color: #a8a8a8;
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: capitalize;
+            margin-bottom: 6px;
+        }
+
+        strong {
+            color: #000;
+            font-size: 27px;
+            font-weight: 700;
+        }
+    }
+}
+
+.canwinn-aarogya-dham {
+    h3 {
+        color: #000;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 21px;
+        margin-top: 13px;
+    }
+
+    .icon-col {
+        margin-top: 70px;
+    }
+
+    .view-more {
+        border-radius: 12px;
+        border: 1px solid #1db8ab;
+        background: #caefec;
+        display: flex;
+        width: 100%;
+        color: #1db8ab;
+        text-align: center;
+        font-size: 14.664px;
+        font-weight: 600;
+        text-transform: capitalize;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .content {
+        padding-left: 30px;
+    }
+}
+
+.canWinn-seva-polyclinic {
+    background-color: #eef2ff;
+
+    .content {
+        background: $white;
+        border-radius: 29.5px;
+        padding: 12px;
+
+        h2 {
+            color: $black;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 36px;
+            /* 200% */
+        }
+    }
+
+    .heading {
+        &::after {
+            position: absolute;
+            width: 100%;
+            content: "";
+            border: 3px solid #e1e1e1;
+            height: 332px;
+            border-radius: 20px 20px 0px 0px;
+            border-bottom: 0;
+            max-width: 470px;
+            top: 0;
+            z-index: -2;
+            left: 50%;
+            transform: translate(-50%, -56px);
+        }
+    }
+
+    .card {
+        overflow: hidden;
+        border-radius: 20px;
+        box-shadow: 0px 20.53003px 41.79328px 0px rgba(190, 190, 190, 0.25);
+        border: 0px;
+    }
+
+    // .swiper-wrapper{
+    //     padding: 0px 38px 42px 38px;
+    // }
+    .text-box {
+        span {
+            color: #7d7d7d;
+
+            font-size: 14.664px;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+    }
+
+    .card-title {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 13px;
+    }
+
+    .linktext {
+        color: #000;
+        font-size: 18px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .sevaPolyclinic {
+        margin-top: 70px;
+    }
+
+    .navigation-btn {
+        position: relative;
+        height: 46px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        margin-top: 45px;
+        gap: 18px;
+    }
+
+    .swiper-button-next {
+        position: static;
+        width: 46.603px;
+        height: 46.603px;
+        background-color: #c3fffa;
+        border-radius: 100%;
+
+        padding: 0;
+
+        &::after {
+            font-size: 20px;
+            color: #1db8ab;
+            font-weight: 700;
+        }
+    }
+
+    .swiper-button-prev {
+        position: static;
+        width: 46.603px;
+        height: 46.603px;
+        background-color: #c3fffa;
+        border-radius: 100%;
+        padding: 0;
+
+        &::after {
+            font-size: 20px;
+            color: #1db8ab;
+            font-weight: 700;
+        }
+    }
+}
+
+.search-polyclinics-sec {
+    .input-group {
+        max-width: 727px;
+        height: 55px;
+        margin-top: 44px;
+        margin-bottom: 129px;
+
+        .btn-primary {
+            border-radius: 12px;
+            width: 55px;
+        }
+    }
+
+    .form-control {
+        border: 1px solid #ececec;
+        border-radius: 12px 0px 0px 12px;
+        padding-left: 31px;
+    }
+
+    .download-column {
+        border-radius: 18px;
+        background: #eef2ff;
+        overflow: hidden;
+        padding: 52px 67px 0px;
+        background-image: url("../img/bg-tots-image.png");
+        background-repeat: no-repeat;
+        background-position: top -95px right -60px;
+        margin-bottom: 126px;
+
+        .download-content {
+            padding-bottom: 57px;
+        }
+
+        .image-right {
+            padding-top: 20px;
+        }
+
+        .list-content {
+            h3 {
+                color: $black;
+
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 30px;
+                margin-bottom: 4px;
+            }
+
+            ul {
+                margin: 0;
+                padding-left: 17px;
+            }
+
+            li {
+                color: #828282;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+                /* 171.429% */
+            }
+        }
+    }
+
+    .insde-blood-donor {
+        background: #faeeff;
+        border-radius: 18px;
+        padding: 0px 30px;
+    }
+
+    .inside-img {
+        margin: -61px 0px;
+    }
+
+    .content-donor {
+        padding: 30px 0px;
+
+        .heading-title {
+            font-size: 23px;
+
+            font-weight: 600;
+        }
+    }
+}
+
+.becomecanWinn-Member-sec {
+    background: #f9f9fb;
+    margin-top: 65px;
+
+    hr {
+        border-top: 1px solid rgba(18, 17, 39);
+        display: block;
+        margin-top: 36px;
+        margin-bottom: 47px;
+    }
+
+    .btn-success {
+        font-size: 16px;
+        font-weight: 500;
+        padding: 14px 32px;
+        border-radius: 10px;
+    }
+
+    .medical-emergency-list {
+        list-style: none;
+
+        li {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 180%;
+            /* 25.2px */
+            color: #121127;
+            border-bottom: 1px solid rgba(18, 17, 39, 0.12);
+            padding-bottom: 18px;
+            margin-bottom: 18px;
+
+            &:last-child {
+                border: 0px;
+            }
+
+            &::before {
+                content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='21' viewBox='0 0 20 21' fill='none'%3E%3Cpath d='M9.99984 2.64502C5.39746 2.64502 1.6665 6.37598 1.6665 10.9784C1.6665 15.5807 5.39746 19.3117 9.99984 19.3117C14.6022 19.3117 18.3332 15.5807 18.3332 10.9784C18.3332 6.37598 14.6022 2.64502 9.99984 2.64502Z' fill='%231DB8AB'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M13.0891 8.72259C13.4145 9.04803 13.4145 9.57567 13.0891 9.9011L9.75576 13.2344C9.43032 13.5599 8.90269 13.5599 8.57725 13.2344L6.91058 11.5678C6.58514 11.2423 6.58514 10.7147 6.91058 10.3893C7.23602 10.0638 7.76366 10.0638 8.08909 10.3893L9.1665 11.4667L11.9106 8.72259C12.236 8.39716 12.7637 8.39716 13.0891 8.72259Z' fill='white'/%3E%3C/svg%3E");
+                display: inline-block;
+                vertical-align: -5px;
+                margin-right: 12px;
+            }
+        }
+    }
+}
+
+.need-medicale-column {
+    border-radius: 12px;
+    background-color: $success;
+    padding: 56px;
+    margin-top: 59px;
+    margin-bottom: 81px;
+
+    .btn {
+        padding: 12px 25px;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 10px;
+    }
+
+    .btn-outline-primary {
+        margin-right: 34px;
+        padding: 12px 56px;
+    }
+}
+
+.our-partners-column {
+    background-color: $primary;
+    background-image: url("data:image/svg+xml,%3Csvg width='214' height='247' viewBox='0 0 214 247' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cellipse cx='91.911' cy='123.104' rx='120.397' ry='124.225' transform='rotate(144.99 91.911 123.104)' fill='url(%23paint0_linear_273_519)'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear_273_519' x1='-28.4865' y1='59.5965' x2='149.327' y2='60.5213' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='white' stop-opacity='0.19'/%3E%3Cstop offset='1' stop-color='white' stop-opacity='0'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+
+    .our-partners-insde {
+        padding: 90px 0px 66px;
+        position: relative;
+        overflow: hidden;
+
+        &::before {
+            width: 49px;
+            height: 49px;
+            background-image: url("data:image/svg+xml,%3Csvg width='50' height='49' viewBox='0 0 50 49' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='47.71' cy='46.624' r='1.74121' transform='rotate(180 47.71 46.624)' fill='white'/%3E%3Ccircle cx='47.71' cy='17.0234' r='1.74121' transform='rotate(180 47.71 17.0234)' fill='white'/%3E%3Ccircle cx='47.71' cy='31.6499' r='1.74121' transform='rotate(180 47.71 31.6499)' fill='white'/%3E%3Ccircle cx='47.71' cy='2.04883' r='1.74121' transform='rotate(180 47.71 2.04883)' fill='white'/%3E%3Ccircle cx='32.3877' cy='46.624' r='1.74121' transform='rotate(180 32.3877 46.624)' fill='white'/%3E%3Ccircle cx='32.3877' cy='17.0239' r='1.74121' transform='rotate(180 32.3877 17.0239)' fill='white'/%3E%3Ccircle cx='32.3877' cy='31.6499' r='1.74121' transform='rotate(180 32.3877 31.6499)' fill='white'/%3E%3Ccircle cx='32.3877' cy='2.04931' r='1.74121' transform='rotate(180 32.3877 2.04931)' fill='white'/%3E%3Ccircle cx='17.0654' cy='46.624' r='1.74121' transform='rotate(180 17.0654 46.624)' fill='white'/%3E%3Ccircle cx='17.0654' cy='17.0239' r='1.74121' transform='rotate(180 17.0654 17.0239)' fill='white'/%3E%3Ccircle cx='17.0654' cy='31.6499' r='1.74121' transform='rotate(180 17.0654 31.6499)' fill='white'/%3E%3Ccircle cx='17.0654' cy='2.04931' r='1.74121' transform='rotate(180 17.0654 2.04931)' fill='white'/%3E%3Ccircle cx='1.74121' cy='46.624' r='1.74121' transform='rotate(180 1.74121 46.624)' fill='white'/%3E%3Ccircle cx='1.74121' cy='17.0239' r='1.74121' transform='rotate(180 1.74121 17.0239)' fill='white'/%3E%3Ccircle cx='1.74121' cy='31.6499' r='1.74121' transform='rotate(180 1.74121 31.6499)' fill='white'/%3E%3Ccircle cx='1.74121' cy='2.04931' r='1.74121' transform='rotate(180 1.74121 2.04931)' fill='white'/%3E%3C/svg%3E%0A");
+            background-repeat: no-repeat;
+            top: -12px;
+            left: 0;
+            position: absolute;
+            content: "";
+        }
+
+        &::after {
+            width: 49px;
+            height: 49px;
+            background-image: url("data:image/svg+xml,%3Csvg width='50' height='49' viewBox='0 0 50 49' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='47.71' cy='46.624' r='1.74121' transform='rotate(180 47.71 46.624)' fill='white'/%3E%3Ccircle cx='47.71' cy='17.0234' r='1.74121' transform='rotate(180 47.71 17.0234)' fill='white'/%3E%3Ccircle cx='47.71' cy='31.6499' r='1.74121' transform='rotate(180 47.71 31.6499)' fill='white'/%3E%3Ccircle cx='47.71' cy='2.04883' r='1.74121' transform='rotate(180 47.71 2.04883)' fill='white'/%3E%3Ccircle cx='32.3877' cy='46.624' r='1.74121' transform='rotate(180 32.3877 46.624)' fill='white'/%3E%3Ccircle cx='32.3877' cy='17.0239' r='1.74121' transform='rotate(180 32.3877 17.0239)' fill='white'/%3E%3Ccircle cx='32.3877' cy='31.6499' r='1.74121' transform='rotate(180 32.3877 31.6499)' fill='white'/%3E%3Ccircle cx='32.3877' cy='2.04931' r='1.74121' transform='rotate(180 32.3877 2.04931)' fill='white'/%3E%3Ccircle cx='17.0654' cy='46.624' r='1.74121' transform='rotate(180 17.0654 46.624)' fill='white'/%3E%3Ccircle cx='17.0654' cy='17.0239' r='1.74121' transform='rotate(180 17.0654 17.0239)' fill='white'/%3E%3Ccircle cx='17.0654' cy='31.6499' r='1.74121' transform='rotate(180 17.0654 31.6499)' fill='white'/%3E%3Ccircle cx='17.0654' cy='2.04931' r='1.74121' transform='rotate(180 17.0654 2.04931)' fill='white'/%3E%3Ccircle cx='1.74121' cy='46.624' r='1.74121' transform='rotate(180 1.74121 46.624)' fill='white'/%3E%3Ccircle cx='1.74121' cy='17.0239' r='1.74121' transform='rotate(180 1.74121 17.0239)' fill='white'/%3E%3Ccircle cx='1.74121' cy='31.6499' r='1.74121' transform='rotate(180 1.74121 31.6499)' fill='white'/%3E%3Ccircle cx='1.74121' cy='2.04931' r='1.74121' transform='rotate(180 1.74121 2.04931)' fill='white'/%3E%3C/svg%3E%0A");
+            background-repeat: no-repeat;
+            bottom: -12px;
+            right: 0;
+            position: absolute;
+            content: "";
+        }
+    }
+
+    .swiper-wrapper {
+        padding-bottom: 32px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 19.7px;
+        height: 3.292px;
+        border-radius: 1.063px;
+        background: rgba(255, 255, 255, 0.25);
+        margin: 0px 4px;
+
+        &.swiper-pagination-bullet-active {
+            background: $white;
+        }
+    }
+
+    .heading {
+        padding-right: 47px;
+    }
+}
+
+.canwinn-doctors-examine-sec {
+    background-color: #f9f9fb;
+
+    .heading-title {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 45px;
+        text-transform: capitalize;
+        margin-bottom: 38px;
+    }
+
+    .card {
+        background-color: transparent;
+        border: 0px;
+        border-radius: 0px;
+    }
+
+    h3 {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        /* 150% */
+        text-transform: capitalize;
+        margin-bottom: 6px;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        /* 171.429% */
+        text-transform: capitalize;
+    }
+
+    .card-body {
+        padding: 0px 0px 0px 28px;
+    }
+}
+
+.doctors-review-sec {
+    background-image: url("data:image/svg+xml,%3Csvg width='1920' height='643' viewBox='0 0 1920 643' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M-2.04736 150.493C-2.04736 67.6503 65.1099 0.493164 147.953 0.493164H1923.78V542.862C1923.78 598.09 1879.01 642.862 1823.78 642.862H-2.04736V150.493Z' fill='%237E55A1'/%3E%3Cmask id='mask0_719_389' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='-3' y='0' width='1927' height='643'%3E%3Cpath d='M-2.04736 150.493C-2.04736 67.6503 65.1099 0.493164 147.953 0.493164H1923.78V542.862C1923.78 598.09 1879.01 642.862 1823.78 642.862H-2.04736V150.493Z' fill='%237E55A1'/%3E%3C/mask%3E%3Cg mask='url(%23mask0_719_389)'%3E%3Cg opacity='0.3'%3E%3Cpath d='M717.984 571.427C710.694 571.427 703.598 570.787 696.779 569.509C682.478 566.827 669.266 561.322 657.508 553.144C644.871 544.357 633.788 532.384 624.563 517.558C606.023 487.759 596.748 452.073 587.777 417.56C586.014 410.783 584.193 403.776 582.343 396.976C569.72 350.635 553.718 310.043 533.427 272.88C492.949 198.746 436.024 135.479 368.803 89.917C291.062 37.2281 207.478 10.9815 133.446 16.0138C89.9341 18.9732 32.4423 47.1128 6.74786 95.1701C-8.50075 123.692 -9.73034 155.343 3.19446 186.697L2.93782 186.83C-3.83903 170.386 -6.79173 153.901 -5.8357 137.832C-4.95863 123.092 -0.80735 108.683 6.50533 95.0061C18.1357 73.2522 37.3156 53.9719 61.9722 39.2474C84.7563 25.6429 110.132 17.2789 133.429 15.6951C172.173 13.0638 213.378 18.9038 255.901 33.0572C294.447 45.8887 332.482 64.9261 368.949 89.6425C436.21 135.229 493.169 198.532 533.669 272.71C553.972 309.898 569.982 350.512 582.613 396.879C584.466 403.678 586.288 410.688 588.048 417.465C597.01 451.953 606.28 487.614 624.794 517.369C642.7 546.149 666.936 563.584 696.827 569.187C738.221 576.948 788.488 560.716 831.287 525.761C892.964 475.391 935.768 402.075 977.165 331.175C984.421 318.748 991.923 305.897 999.351 293.489C1018.64 261.266 1044.75 219.513 1075.79 182.315C1107.52 144.294 1139.76 116.359 1174.36 96.9117C1195.53 85.0078 1217.98 76.9877 1241.06 73.0755C1262.38 69.4599 1284.95 69.2359 1308.14 72.4035C1347.92 77.8396 1390.78 93.1951 1439.16 119.344C1534.43 170.837 1629.59 233.338 1722.01 305.115C1809.85 373.336 1896 450.533 1978.06 534.554L1977.87 534.788C1807.75 360.615 1626.46 220.936 1439.04 119.628C1333.15 62.3926 1249.08 55.2622 1174.48 97.1925C1098.59 139.848 1045.57 216.828 999.585 293.662C992.16 306.068 984.658 318.918 977.402 331.346C935.993 402.271 893.175 475.609 831.456 526.014C811.512 542.303 789.074 555.008 766.572 562.754C754.685 566.846 742.869 569.521 731.447 570.708C726.896 571.19 722.403 571.427 717.984 571.427Z' fill='%23A1A1A1'/%3E%3Cpath d='M725.111 553.756C706.52 553.756 689.3 549.797 673.911 541.982C656.75 533.268 641.941 519.764 629.894 501.85C628.828 500.263 627.77 498.622 626.749 496.969C608.407 467.299 598.72 432.076 589.354 398.012C587.459 391.127 585.501 384.007 583.516 377.097C571.691 335.956 557.452 299.695 539.981 266.248C537.829 262.131 535.602 258.004 533.354 253.985C492.281 180.489 434.894 118.022 367.396 73.3377C289.094 21.548 205.273 -3.61331 131.374 2.49166C88.1774 6.09785 30.9507 34.6982 5.14622 82.3863C-10.3054 110.942 -12.0539 142.657 0.0840492 174.103L-0.175418 174.229C-6.5377 157.747 -9.15197 141.231 -7.94212 125.143C-6.83097 110.368 -2.51051 95.9277 4.90369 82.2223C16.6525 60.5062 35.776 41.2038 60.2014 26.4036C82.7768 12.7234 108.043 4.11965 131.348 2.17616C170.044 -1.01988 211.294 4.26165 253.952 17.8724C292.591 30.2022 330.807 48.7727 367.537 73.0664C435.074 117.776 492.493 180.28 533.591 253.818C535.838 257.84 538.069 261.97 540.221 266.091C557.703 299.559 571.951 335.839 583.781 377.002C585.769 383.912 587.727 391.033 589.622 397.92C598.985 431.963 608.663 467.16 626.98 496.789C627.998 498.436 629.056 500.077 630.119 501.66C655.016 538.691 689.224 553.756 725.198 553.756C725.396 553.756 725.59 553.756 725.788 553.756C725.562 553.753 725.336 553.756 725.111 553.756ZM732.784 553.535C766.229 551.614 800.739 537.237 830.345 515.849C894.208 469.523 940.106 397.974 984.495 328.781C986.322 325.929 988.15 323.083 989.977 320.237C993.99 313.99 998.748 306.595 1003.6 299.14C1025.39 265.706 1051.76 226.804 1082.12 191.79C1114.43 154.532 1146.7 126.885 1180.79 107.264C1201.74 95.2209 1223.87 86.7371 1246.58 82.0487C1267.62 77.7042 1289.86 76.477 1312.67 78.3984C1352.07 81.7206 1394.43 94.3155 1442.18 116.905C1488.74 138.896 1527.01 159.596 1562.62 182.05C1613.07 213.891 1661.12 250.577 1701.47 282.263C1795.29 356.141 1887.34 440.03 1975.07 531.602L1974.88 531.832C1887.16 440.273 1795.12 356.391 1701.31 282.522C1660.96 250.839 1612.92 214.159 1562.48 182.328C1526.88 159.88 1488.62 139.186 1442.08 117.202C1338.06 67.9899 1255.07 64.9201 1180.92 107.548C1103.97 151.838 1049.16 229.764 1003.83 299.329C998.974 306.784 994.219 314.176 990.206 320.427C988.378 323.269 986.551 326.118 984.723 328.97C940.32 398.185 894.405 469.76 830.497 516.12C814.651 527.566 797.789 536.659 780.377 543.143C764.17 549.172 748.194 552.658 732.784 553.535Z' fill='%23A1A1A1'/%3E%3Cpath d='M732.969 536.489C730.733 536.489 728.51 536.435 726.305 536.325C707.731 535.407 690.542 530.64 675.218 522.149C658.458 512.864 643.937 499.111 632.061 481.27C631.006 479.68 629.954 478.036 628.939 476.383C610.802 446.858 600.712 412.105 590.957 378.501C588.924 371.497 586.82 364.253 584.688 357.224C572.279 316.221 557.665 280.251 540.005 247.256C537.82 243.176 535.558 239.084 533.276 235.096C491.608 162.24 433.758 100.575 365.984 56.7679C287.124 5.87743 203.067 -18.2017 129.297 -11.024C87.7615 -6.91931 30.7012 20.0498 3.57125 69.5584C-12.1032 98.1618 -14.3847 129.961 -3.02793 161.518L-3.29019 161.635C-9.24073 145.102 -11.511 128.548 -10.0445 112.432C-8.69646 97.6097 -4.19547 83.1313 3.33154 69.3943C15.2044 47.7288 34.2659 28.4201 58.4572 13.5505C80.8211 -0.195972 105.971 -9.03317 129.271 -11.3363C167.922 -15.094 209.217 -10.3741 252.008 2.69403C290.742 14.5254 329.136 32.6257 366.125 56.4966C433.939 100.332 491.82 162.032 533.513 234.929C535.795 238.92 538.059 243.012 540.245 247.098C557.913 280.112 572.536 316.104 584.95 357.129C587.082 364.162 589.186 371.406 591.219 378.41C600.971 411.995 611.053 446.722 629.167 476.212C630.183 477.866 631.229 479.506 632.284 481.09C680.539 553.586 766.058 545.803 829.402 505.933C895.929 463.69 945.369 393.481 993.182 325.585L993.673 324.888C998.304 318.307 1003.09 311.504 1007.86 304.787C1058.15 233.926 1113.43 161.101 1187.23 117.609C1207.95 105.425 1229.78 96.4771 1252.11 91.0157C1272.88 85.9361 1294.78 83.7055 1317.2 84.387C1356.28 85.5733 1398.16 95.4107 1445.21 114.461C1494.67 134.41 1531.88 152.747 1565.88 173.92C1614.33 204.148 1661.25 242.346 1702.65 276.048C1794.83 351.488 1885.48 436.472 1972.08 528.633L1971.88 528.86C1885.29 436.708 1794.65 351.734 1702.48 276.301C1661.09 242.605 1614.17 204.413 1565.75 174.195C1531.76 153.028 1494.56 134.697 1445.12 114.754C1343.12 73.4612 1261.21 74.455 1187.36 117.884C1113.61 161.347 1058.35 234.14 1008.08 304.977C1003.31 311.694 998.524 318.499 993.893 325.077L993.402 325.775C969.575 359.609 944.938 394.595 918.333 425.846C888.433 460.964 859.388 487.249 829.537 506.201C798.306 525.857 764.287 536.489 732.969 536.489Z' fill='%23A1A1A1'/%3E%3Cpath d='M1968.9 525.885C1883.43 433.14 1794.19 347.074 1703.66 270.079C1699.83 266.842 1695.99 263.589 1692.13 260.327C1652.92 227.13 1612.38 192.803 1569.02 166.061C1526.96 140.19 1484.33 124.371 1448.17 112.309C1348.38 78.8088 1267.55 83.8663 1193.81 128.22C1118.12 173.885 1059.46 249.704 1012.34 310.627C1009.51 314.284 1006.68 317.947 1003.86 321.613C1001.77 324.32 999.68 327.027 997.59 329.731C970.756 364.455 946.347 395.501 919.378 423.829C888.568 456.191 858.872 479.891 828.586 496.288C800.204 511.656 769.884 519.786 741.683 519.789C736.544 519.789 731.482 519.521 726.507 518.975C708.346 516.985 691.532 511.391 676.534 502.349C660.169 492.483 645.935 478.468 634.223 460.693C633.177 459.099 632.134 457.453 631.124 455.796C613.202 426.426 602.719 392.163 592.584 359.028C590.401 351.892 588.142 344.509 585.858 337.344C572.857 296.471 557.865 260.787 540.03 228.253C537.81 224.205 535.512 220.151 533.2 216.197C490.934 143.982 432.624 83.1186 364.577 40.1851C285.158 -9.80627 200.866 -32.7969 127.226 -24.556C76.8835 -18.8107 25.4043 14.5883 2.03648 56.6606C-13.8833 85.324 -16.7063 117.224 -6.13355 148.913L-6.39863 149.024C-11.9346 132.432 -13.8636 115.827 -12.132 99.6699C-10.5386 84.7939 -5.85154 70.2682 1.79674 56.4933C13.7937 34.8909 32.7931 15.5822 56.7419 0.658924C78.8915 -13.1443 103.912 -22.2118 127.198 -24.8684C165.803 -29.1907 207.141 -25.0293 250.064 -12.5038C288.892 -1.17098 327.469 16.4624 364.718 39.9074C432.808 82.8662 491.148 143.764 533.439 216.024C535.755 219.98 538.053 224.038 540.273 228.086C558.119 260.639 573.116 296.341 586.125 337.234C588.41 344.402 590.669 351.781 592.852 358.921C602.982 392.036 613.458 426.278 631.358 455.613C632.368 457.266 633.408 458.91 634.452 460.5C684.828 536.959 770.451 527.409 828.465 496.001C897.68 458.525 950.645 389.992 997.378 329.523C999.468 326.816 1001.55 324.109 1003.64 321.405C1006.47 317.739 1009.3 314.076 1012.12 310.419C1039.03 275.644 1065.59 241.851 1094.8 210.711C1128.38 174.898 1160.73 147.825 1193.68 127.942C1214.19 115.609 1235.71 106.198 1257.65 99.9727C1278.16 94.1517 1299.72 90.9209 1321.74 90.3657C1360.58 89.3876 1401.96 96.4675 1448.26 112.006C1484.42 124.074 1527.07 139.9 1569.16 165.786C1612.53 192.538 1653.09 226.874 1692.31 260.077C1696.16 263.34 1700 266.593 1703.84 269.83C1794.37 346.831 1883.62 432.906 1969.1 525.661L1968.9 525.885Z' fill='%23A1A1A1'/%3E%3Cpath d='M1965.91 522.913C1879.95 427.802 1792.12 340.641 1704.84 263.857C1699.62 259.264 1694.28 254.528 1689.11 249.95C1652.11 217.163 1613.84 183.259 1572.29 157.928C1530.79 132.722 1487.8 119.484 1451.22 109.861C1353.85 83.9991 1274.11 93.1171 1200.26 138.556C1129.82 182.054 1074.64 247.464 1021.28 310.719L1015.41 317.663C1010.79 323.15 1006 328.819 1001.28 334.382C947.864 397.274 894.388 456.219 827.632 486.369C811.433 493.685 794.799 498.755 778.189 501.446C760.351 504.333 743.024 504.374 726.687 501.566C708.943 498.516 692.509 492.108 677.845 482.519C661.885 472.086 647.937 457.816 636.391 440.11C635.35 438.507 634.315 436.857 633.314 435.204C615.612 406.007 604.752 372.248 594.249 339.6C591.906 332.315 589.481 324.781 587.033 317.464C573.428 276.717 558.064 241.321 540.06 209.254C537.81 205.247 535.477 201.224 533.128 197.302C490.267 125.727 431.498 65.6652 363.171 23.6056C283.191 -25.4802 198.663 -47.3887 125.15 -38.0782C75.2666 -31.6262 24.0215 2.00633 0.535179 43.7126C-15.6497 72.4485 -19.0311 104.472 -9.24512 136.322L-9.51305 136.426C-14.6345 119.761 -16.2166 103.093 -14.2171 86.8891C-12.3727 71.9501 -7.49099 57.3676 0.292649 43.5486C12.4193 22.0187 31.3511 2.72884 55.0461 -12.2386C76.9756 -26.0923 101.861 -35.3775 125.116 -38.3874C163.676 -43.2714 205.056 -39.6715 248.114 -27.6887C287.038 -16.8544 325.793 0.308933 363.304 23.3311C431.67 65.4128 490.473 125.513 533.359 197.129C535.708 201.054 538.044 205.079 540.294 209.086C558.309 241.17 573.682 276.585 587.292 317.354C589.74 324.671 592.165 332.208 594.509 339.493C605.005 372.122 615.86 405.865 633.543 435.027C634.541 436.674 635.576 438.321 636.614 439.924C685.778 515.319 767.466 513.202 827.522 486.078C894.224 455.954 947.677 397.031 1001.07 334.167C1005.79 328.605 1010.58 322.935 1015.21 317.449L1021.07 310.505C1047.26 279.456 1074.35 247.347 1103.76 217.479C1137.08 183.65 1168.6 157.745 1200.12 138.278C1220.41 125.791 1241.63 115.915 1263.17 108.93C1283.43 102.361 1304.66 98.1273 1326.27 96.3447C1364.93 93.155 1405.82 97.4774 1451.28 109.552C1487.88 119.181 1530.89 132.422 1572.42 157.65C1614 182.991 1652.27 216.904 1689.28 249.701C1694.45 254.279 1699.79 259.011 1705.01 263.608C1792.3 340.398 1880.14 427.565 1966.1 522.686L1965.91 522.913Z' fill='%23A1A1A1'/%3E%3Cpath d='M1962.92 519.941C1877.7 423.773 1791.27 335.521 1706.02 257.639C1699.61 251.786 1693.04 245.7 1686.69 239.816C1651.68 207.382 1615.48 173.845 1575.55 149.8C1534.25 125.027 1491.07 114.473 1454.27 107.419C1359.6 88.9902 1280.93 102.172 1206.7 148.898C1141.92 189.847 1088.74 247.88 1037.3 304.002C1031.89 309.908 1026.29 316.013 1020.84 321.929C1014.43 328.876 1009.54 334.154 1004.97 339.038C980.521 365.181 951.406 395.283 920.852 420.321C888.474 446.852 857.669 465.214 826.676 476.458C810.378 482.371 793.815 486.1 777.444 487.539C759.866 489.085 742.846 487.949 726.862 484.16C709.543 480.055 693.494 472.833 679.153 462.696C663.603 451.704 649.945 437.178 638.557 419.529C637.53 417.93 636.501 416.276 635.503 414.617C618.035 385.616 606.81 352.378 595.953 320.234C593.434 312.779 590.831 305.071 588.206 297.584C573.989 256.951 558.25 221.845 540.085 190.254C537.801 186.282 535.435 182.297 533.052 178.407C489.596 107.472 430.364 48.2115 361.761 7.02585C281.226 -41.1577 196.46 -61.9776 123.077 -51.6039C81.3215 -45.5715 26.7852 -17.7821 -0.92568 30.698C-17.4011 59.5223 -21.3549 91.6909 -12.3558 123.724L-12.6237 123.818C-17.3306 107.068 -18.5602 90.3279 -16.2815 74.0606C-14.1776 59.0459 -9.09289 44.4003 -1.1626 30.5276C11.0938 9.0861 29.9551 -10.1722 53.3878 -25.1712C75.0974 -39.0659 99.833 -48.5625 123.043 -51.9163C161.558 -57.3619 202.983 -54.3236 246.171 -42.8835C285.188 -32.5476 324.123 -15.8512 361.894 6.74821C430.536 47.956 489.802 107.251 533.283 178.227C535.666 182.117 538.035 186.108 540.319 190.083C558.493 221.69 574.24 256.815 588.465 297.468C591.094 304.958 593.697 312.665 596.215 320.121C607.064 352.248 618.286 385.468 635.734 414.437C636.732 416.093 637.759 417.743 638.785 419.34C679.686 482.737 749.894 503.977 826.588 476.152C896.043 450.956 952.7 394.485 1004.78 338.805C1009.35 333.921 1014.24 328.643 1020.64 321.695C1026.09 315.78 1031.69 309.675 1037.1 303.768C1062.43 276.14 1088.61 247.571 1116.54 220.82C1148.12 190.566 1177.57 166.948 1206.57 148.617C1226.67 135.965 1247.57 125.626 1268.71 117.89C1288.73 110.561 1309.62 105.327 1330.8 102.326C1369.37 96.8683 1409.77 98.43 1454.32 107.1C1491.13 114.161 1534.35 124.718 1575.69 149.513C1615.64 173.573 1651.85 207.121 1686.87 239.564C1693.22 245.448 1699.79 251.534 1706.19 257.386C1791.45 335.278 1877.89 423.536 1963.12 519.711L1962.92 519.941Z' fill='%23A1A1A1'/%3E%3Cpath d='M1959.93 516.97C1875.45 419.738 1790.42 330.391 1707.19 251.418C1700.11 244.701 1692.84 237.649 1685.8 230.831C1652.3 198.353 1617.66 164.771 1578.82 141.667C1537.49 117.19 1494.2 109.382 1457.32 104.971C1366.94 93.8747 1287.07 111.625 1213.15 159.234C1154.29 197.315 1103.83 248.259 1055.04 297.528C1045.18 307.479 1034.99 317.771 1025.08 327.58C1019.02 333.584 1013.65 338.856 1008.66 343.696C985.451 366.178 954.573 395.006 921.577 418.564C888.423 442.233 857.065 457.93 825.714 466.546C791.519 475.945 757.393 476.014 727.025 466.751C710.141 461.599 694.472 453.566 680.453 442.874C665.317 431.33 651.95 416.551 640.717 398.956C639.699 397.353 638.678 395.697 637.685 394.037C620.465 365.257 608.891 332.565 597.701 300.951C594.994 293.304 592.196 285.397 589.373 277.715C574.533 237.188 558.419 202.366 540.108 171.264C537.79 167.327 535.39 163.377 532.973 159.521C488.922 89.2273 429.23 30.7648 360.351 -9.54063C279.26 -56.8186 194.257 -76.5533 121.001 -65.1164C71.3548 -57.1973 21.7848 -23.9433 -2.34444 17.6273C-19.1357 46.5557 -23.6733 78.8915 -15.4667 111.139L-15.7374 111.224C-20.0268 94.3732 -20.9011 77.5443 -18.3376 61.2076C-15.9687 46.1077 -10.6667 31.3863 -2.58133 17.4537C9.80482 -3.88685 28.5927 -23.1009 51.7519 -38.1125C73.233 -52.0357 97.8135 -61.7405 120.961 -65.4319C159.431 -71.439 200.902 -68.9592 244.222 -58.0649C283.335 -48.2275 322.451 -31.9981 360.48 -9.82459C429.399 30.5061 489.125 89.0002 533.204 159.338C535.621 163.194 538.021 167.147 540.342 171.088C558.661 202.209 574.784 237.046 589.633 277.592C592.456 285.274 595.253 293.184 597.96 300.832C609.145 332.429 620.714 365.106 637.917 393.857C638.909 395.517 639.927 397.167 640.945 398.77C681.144 461.757 750.19 486.978 825.646 466.24C894.435 447.332 954.172 396.053 1008.48 343.459C1013.47 338.619 1018.84 333.35 1024.9 327.346C1034.8 317.537 1044.99 307.249 1054.85 297.298C1103.65 248.02 1154.12 197.063 1213 158.966C1232.93 146.134 1253.53 135.335 1274.23 126.86C1294.04 118.758 1314.6 112.521 1335.33 108.322C1373.89 100.513 1413.8 99.3171 1457.34 104.662C1494.26 109.076 1537.57 116.887 1578.95 141.392C1617.82 164.512 1652.47 198.107 1685.99 230.598C1693.02 237.416 1700.29 244.464 1707.37 251.181C1790.61 330.161 1875.65 419.514 1960.13 516.752L1959.93 516.97Z' fill='%23A1A1A1'/%3E%3Cpath d='M1956.94 513.997C1873.21 415.692 1789.58 325.257 1708.36 245.198C1700.9 237.841 1693.22 230.051 1685.8 222.517C1653.52 189.764 1620.14 155.895 1582.08 133.536C1540.58 109.267 1497.26 104.241 1460.36 102.525C1373.4 98.1836 1294.64 120.114 1219.59 169.572C1166.96 204.423 1120.04 248.53 1074.66 291.183C1059.06 305.85 1044.32 319.704 1029.34 333.23C1023.24 338.735 1017.69 343.682 1012.35 348.348C977.963 378.432 949.35 400.182 922.305 416.797C888.375 437.642 856.468 450.672 824.758 456.629C812.456 458.938 800.2 460.09 788.166 460.09C766.835 460.09 746.194 456.481 727.192 449.331C692.803 436.393 664.438 412.519 642.883 378.372C641.868 376.753 640.855 375.097 639.874 373.444C622.916 344.913 611.018 312.801 599.512 281.743C596.596 273.874 593.584 265.741 590.547 257.831C575.072 217.399 558.58 182.868 540.136 152.261C537.784 148.358 535.35 144.443 532.9 140.622C488.254 70.9684 428.1 13.3072 358.944 -26.1243C277.297 -72.4936 192.061 -91.1461 118.931 -78.6459C69.0791 -69.9475 20.9389 -37.3246 -3.70647 4.46684C-20.8389 33.5151 -25.9773 66.0434 -18.5715 98.537L-18.8451 98.6159C-22.7115 81.6481 -23.2248 64.7183 -20.368 48.2964C-17.7227 33.0955 -12.198 18.2922 -3.94053 4.29332C8.57534 -16.9305 27.2815 -36.0815 50.1586 -51.0931C71.4085 -65.0383 95.817 -74.9324 118.889 -78.9582C157.313 -85.527 198.829 -83.6087 242.279 -73.2571C281.488 -63.9151 320.781 -48.1526 359.073 -26.4082C428.269 13.0485 488.457 70.7413 533.131 140.436C535.582 144.26 538.015 148.175 540.37 152.081C558.825 182.704 575.326 217.254 590.806 257.702C593.843 265.611 596.858 273.748 599.771 281.617C611.272 312.659 623.164 344.758 640.108 373.264C641.089 374.914 642.099 376.57 643.114 378.186C683.364 441.955 749.553 470.432 824.71 456.313C896.255 442.873 959.624 394.068 1012.18 348.096C1017.51 343.43 1023.06 338.486 1029.16 332.98C1044.14 319.455 1058.88 305.604 1074.48 290.937C1119.87 248.274 1166.8 204.161 1219.45 169.298C1239.22 156.268 1259.51 145.004 1279.77 135.817C1299.39 126.92 1319.61 119.679 1339.87 114.299C1378.5 104.043 1417.93 100.086 1460.37 102.206C1497.3 103.923 1540.66 108.955 1582.21 133.252C1620.31 155.627 1653.7 189.512 1685.99 222.277C1693.41 229.811 1701.09 237.601 1708.55 244.955C1789.77 325.02 1873.41 415.465 1957.14 513.776L1956.94 513.997Z' fill='%23A1A1A1'/%3E%3Cpath d='M1953.95 511.025C1869.81 410.241 1789.86 321.254 1709.54 238.977C1701.88 231.127 1694.33 223.111 1686.34 214.624C1655.12 181.445 1622.82 147.141 1585.35 125.406C1543.32 101.147 1498.11 99.1276 1463.41 100.08C1380.41 102.062 1302.76 128.176 1226.04 179.915C1180 211.109 1137.5 248.568 1096.4 284.798C1074.79 303.838 1054.39 321.819 1033.58 338.884C1027.41 343.954 1021.67 348.573 1016.04 353.006C981.184 380.442 951.629 400.148 923.027 415.027C888.311 433.087 855.854 443.451 823.8 446.713C807.33 448.389 790.973 448.073 775.183 445.776C758.465 443.344 742.373 438.677 727.356 431.91C694.069 416.908 666.378 391.974 645.049 357.795C644.043 356.174 643.039 354.514 642.063 352.861C625.39 324.623 613.193 293.124 601.396 262.662C598.249 254.535 594.994 246.13 591.72 237.958C575.597 197.615 558.733 163.37 540.162 133.268C537.773 129.4 535.306 125.519 532.827 121.733C487.586 52.7204 426.972 -4.13942 357.54 -42.6969C293.454 -78.1373 227.367 -96.6289 166.764 -96.6289C149.632 -96.6289 132.951 -95.1523 116.862 -92.1645C67.6103 -82.8383 19.7719 -50.0986 -5.01727 -8.7552C-22.5135 20.4287 -28.2751 53.1779 -21.6788 85.9491L-21.9552 86.0185C-25.3986 68.9183 -25.5424 51.8717 -22.3838 35.3551C-19.4565 20.0438 -13.6921 5.14267 -5.25418 -8.93188C7.39141 -30.0232 26.0101 -49.0953 48.594 -64.0912C69.9116 -78.2477 93.5022 -88.063 116.811 -92.4737C155.19 -99.6041 196.751 -98.2443 240.334 -88.4385C279.636 -79.5981 319.112 -64.3057 357.664 -42.984C427.136 -4.40443 487.786 52.4869 533.055 121.541C535.537 125.327 538.007 129.211 540.396 133.082C558.975 163.2 575.848 197.46 591.98 237.822C595.254 245.994 598.511 254.399 601.658 262.529C613.45 292.979 625.641 324.466 642.3 352.681C643.276 354.331 644.279 355.991 645.283 357.609C685.169 421.52 750.224 453.878 823.777 446.395C898.204 438.819 965.538 392.365 1015.89 352.741C1021.51 348.308 1027.25 343.689 1033.42 338.622C1054.23 321.563 1074.63 303.579 1096.23 284.542C1137.34 248.31 1179.84 210.841 1225.9 179.638C1265.4 153 1304.16 133.587 1344.4 120.285C1383.22 107.457 1422.14 100.743 1463.41 99.7586C1486.95 99.1118 1506.16 100.235 1523.86 103.289C1546.71 107.233 1566.87 114.373 1585.49 125.119C1622.99 146.873 1655.3 181.196 1686.54 214.39C1694.53 222.877 1702.08 230.891 1709.74 238.741C1790.06 321.02 1870.01 410.014 1954.16 510.804L1953.95 511.025Z' fill='%23A1A1A1'/%3E%3Cpath d='M1950.96 508.052C1867.59 406.164 1789 316.117 1710.71 232.755C1702.97 224.507 1695.33 216.011 1687.25 207.016C1656.95 173.314 1625.63 138.46 1588.62 117.271C1546.24 93.1259 1501.07 94.0914 1466.46 97.6281C1388.13 105.355 1311.59 135.652 1232.48 190.247C1193.5 217.276 1156.39 248.208 1120.49 278.124C1092.12 301.771 1065.32 324.108 1037.83 344.524C1031.62 349.143 1025.53 353.56 1019.73 357.649C984.805 382.271 953.408 400.454 923.749 413.238C888.234 428.546 855.227 436.25 822.84 436.787C806.362 437.058 790.07 435.392 774.427 431.83C758.028 428.095 742.246 422.255 727.519 414.468C695.375 397.472 668.355 371.478 647.212 337.205C646.219 335.586 645.221 333.924 644.248 332.261C627.888 304.367 615.426 273.533 603.373 243.715C599.963 235.279 596.435 226.552 592.89 218.068C576.107 177.8 558.868 143.846 540.187 114.258C537.765 110.425 535.263 106.579 532.75 102.828C486.914 34.4551 425.838 -21.6033 356.129 -59.2869C273.375 -103.836 187.661 -120.318 114.786 -105.697C66.1718 -95.7748 18.6521 -62.9499 -6.2753 -22.0766C-24.1664 7.26197 -30.5681 40.2572 -24.7924 73.3471L-25.0688 73.407C-28.0808 56.1585 -27.8495 38.9794 -24.3779 22.3493C-21.1544 6.91177 -15.1447 -8.09668 -6.50936 -22.2564C6.26033 -43.1963 24.7859 -62.1738 47.0652 -77.138C68.1374 -91.2915 91.5363 -101.274 114.735 -106.01C153.072 -113.698 194.675 -112.903 238.388 -103.64C277.785 -95.292 317.44 -80.4666 356.251 -59.574C426.002 -21.8715 487.112 34.2216 532.973 102.635C535.489 106.386 537.993 110.236 540.416 114.072C559.108 143.676 576.353 177.646 593.144 217.929C596.692 226.413 600.217 235.14 603.629 243.58C615.677 273.385 628.134 304.206 644.482 332.081C645.455 333.741 646.453 335.403 647.443 337.019C687.749 402.353 750.038 437.677 822.835 436.465C881.903 435.487 944.42 410.354 1019.58 357.375C1025.37 353.286 1031.46 348.872 1037.67 344.253C1065.16 323.84 1091.95 301.509 1120.32 277.862C1156.22 247.943 1193.34 217.005 1232.33 189.969C1272.22 162.442 1310.36 141.606 1348.93 126.263C1388.01 110.721 1426.44 101.247 1466.43 97.3032C1501.09 93.7601 1546.31 92.7978 1588.75 116.981C1625.8 138.195 1657.14 173.065 1687.45 206.783C1695.53 215.777 1703.17 224.271 1710.91 232.515C1789.2 315.88 1867.79 405.934 1951.16 507.828L1950.96 508.052Z' fill='%23A1A1A1'/%3E%3Cpath d='M1947.97 505.081C1865.37 402.085 1788.16 310.971 1711.89 226.536C1704.15 217.964 1696.51 209.057 1688.42 199.627C1658.98 165.322 1628.54 129.851 1591.89 109.141C1549.11 85.0839 1504.02 89.0434 1469.51 95.18C1395.81 108.037 1322.54 141.53 1238.93 200.586C1207.57 222.835 1176.92 247.243 1147.28 270.845C1111.29 299.512 1077.29 326.591 1042.08 350.175C1035.74 354.428 1029.46 358.511 1023.42 362.303C987.87 384.622 955.503 400.7 924.473 411.452C907.092 417.475 889.935 421.838 873.476 424.422C855.921 427.177 838.562 428 821.884 426.871C788.045 424.577 756.352 414.538 727.688 397.034C696.731 378.129 670.385 351.078 649.383 316.625C648.396 314.994 647.406 313.328 646.439 311.674C630.429 284.191 617.744 254.089 605.479 224.981C601.765 216.169 597.927 207.057 594.066 198.191C576.606 157.99 558.992 124.323 540.215 95.262C537.759 91.4602 535.22 87.649 532.677 83.9355C486.246 16.2003 424.71 -39.0568 354.725 -75.8601C271.417 -119.497 185.47 -134.894 112.715 -119.216C34.814 -102.17 -41.0963 -28.5159 -27.8979 60.7555L-28.1771 60.806C-31.4795 38.4747 -29.5449 16.4748 -22.4296 -4.58817C-15.932 -23.8243 -5.26894 -41.9278 9.26334 -58.3908C22.7747 -73.6989 38.985 -86.9153 57.4401 -97.674C74.9928 -107.906 94.0881 -115.465 112.659 -119.529C150.951 -127.779 192.599 -127.543 236.444 -118.822C275.938 -110.969 315.772 -96.6107 354.843 -76.1441C424.868 -39.3155 486.44 15.9731 532.899 83.7462C535.446 87.4628 537.984 91.274 540.443 95.079C559.228 124.153 576.852 157.839 594.32 198.056C598.18 206.921 602.019 216.033 605.733 224.848C617.995 253.947 630.674 284.036 646.676 311.504C647.641 313.157 648.628 314.823 649.615 316.451C689.98 382.663 751.166 421.763 821.901 426.558C881.784 430.613 947.658 409.509 1023.29 362.032C1029.32 358.239 1035.6 354.16 1041.94 349.907C1077.13 326.33 1111.13 299.253 1147.12 270.59C1176.76 246.984 1207.41 222.573 1238.77 200.321C1322.43 141.24 1395.73 107.734 1469.47 94.8676C1492.65 90.744 1511.85 89.4252 1529.89 90.7219C1552.94 92.3783 1573.26 98.3098 1592.01 108.857C1628.7 129.589 1659.16 165.083 1688.62 199.406C1696.71 208.833 1704.35 217.74 1712.09 226.309C1788.36 310.75 1865.58 401.867 1948.17 504.869L1947.97 505.081Z' fill='%23A1A1A1'/%3E%3Cpath d='M1944.98 502.109C1863.17 397.99 1787.31 305.816 1713.07 220.315C1705.39 211.468 1697.8 202.202 1689.76 192.387C1661.12 157.426 1631.51 121.273 1595.15 101.008C1551.45 76.749 1504.26 84.6649 1472.56 92.7292C1386.53 114.347 1309.44 164.607 1245.37 210.926C1222.35 227.641 1199.38 245.347 1177.17 262.469C1132.6 296.818 1090.52 329.261 1046.34 355.827C1039.84 359.736 1033.37 363.481 1027.12 366.961C990.872 387.086 957.535 401.057 925.204 409.664C888.554 419.422 853.474 421.877 820.932 416.955C787.502 411.898 756.187 399.328 727.861 379.593C698.15 358.896 672.479 330.788 651.553 296.048C650.577 294.417 649.593 292.748 648.631 291.089C633.019 264.11 620.176 234.835 607.753 206.521C603.684 197.242 599.473 187.651 595.243 178.315C576.841 137.609 559.365 105.185 540.247 76.2663C537.757 72.4991 535.187 68.7258 532.607 65.0439C485.575 -2.0477 423.577 -56.5034 353.315 -92.436C269.455 -135.158 183.271 -149.472 110.64 -132.738C32.46 -114.486 -41.8992 -41.8325 -31.0077 48.1645L-31.2869 48.2055C-33.9886 25.8774 -31.6507 3.89949 -24.3409 -17.1161C-17.6402 -36.3712 -6.91511 -54.4937 7.54103 -70.9755C21.0214 -86.3468 37.1471 -99.661 55.4725 -110.555C72.9208 -120.929 91.9795 -128.706 110.584 -133.051C148.834 -141.863 190.524 -142.184 234.499 -134.01C274.089 -126.652 314.104 -112.761 353.434 -92.7231C423.738 -56.7716 485.77 -2.28433 532.824 64.8482C535.405 68.5333 537.977 72.3099 540.47 76.077C559.599 105.009 577.081 137.452 595.491 178.173C599.721 187.509 603.932 197.104 608.001 206.383C620.421 234.686 633.261 263.952 648.862 290.918C649.824 292.578 650.806 294.244 651.781 295.875C692.459 363.405 752.543 406.294 820.966 416.643C882.332 425.925 949.723 409.579 1026.99 366.677C1033.24 363.2 1039.71 359.458 1046.2 355.549C1090.37 328.99 1132.45 296.553 1177.01 262.207C1199.22 245.085 1222.19 227.376 1245.22 210.658C1288.3 179.514 1324.14 156.505 1358 138.247C1397.86 116.755 1435.31 101.765 1472.5 92.42C1495.16 86.6526 1514.92 84.0402 1532.9 84.4378C1556.05 84.9489 1576.45 90.2746 1595.28 100.724C1631.68 121.014 1661.31 157.189 1689.96 192.172C1698 201.984 1705.59 211.251 1713.27 220.091C1787.52 305.595 1863.38 397.776 1945.19 501.898L1944.98 502.109Z' fill='%23A1A1A1'/%3E%3Cpath d='M1941.99 499.133C1860.97 393.888 1786.48 300.65 1714.25 214.089C1706.67 205.012 1699.17 195.424 1691.24 185.271C1663.36 149.607 1634.53 112.728 1598.42 92.8732C1554.24 68.6711 1507.17 79.7988 1475.61 90.2767C1397.67 115.93 1328.15 164.776 1251.82 221.261C1238.06 231.486 1224.13 242.04 1210.67 252.249C1158.88 291.51 1105.33 332.106 1050.59 361.473C1043.94 365.044 1037.28 368.455 1030.81 371.61C994.315 389.379 959.029 401.576 925.929 407.864C888.432 414.988 852.785 414.708 819.97 407.035C787.008 399.327 756.074 384.224 728.024 362.145C699.639 339.801 674.636 310.639 653.71 275.47C652.743 273.836 651.767 272.164 650.811 270.504C635.67 244.157 622.745 215.834 610.246 188.445C605.742 178.576 601.086 168.373 596.407 158.444C577.287 117.779 559.446 85.6325 540.264 57.2751C537.745 53.5522 535.139 49.8103 532.522 46.1568C484.904 -20.3037 422.449 -73.958 351.905 -109.013C267.495 -150.821 181.077 -164.05 108.565 -146.262C32.866 -127.489 -42.8666 -57.3847 -34.1212 35.5686L-34.4004 35.6001C-36.5015 13.272 -33.7603 -8.68062 -26.2558 -29.6489C-19.3549 -48.9261 -8.56495 -67.0643 5.81222 -83.5651C32.3387 -114.005 69.7678 -136.97 108.503 -146.574C146.707 -155.944 188.443 -156.828 232.55 -149.199C272.236 -142.334 312.429 -128.912 352.018 -109.304C422.601 -74.2293 485.093 -20.5403 532.742 45.9518C535.362 49.6084 537.968 53.3503 540.489 57.0764C559.68 85.4495 577.529 117.609 596.656 158.289C601.334 168.221 605.993 178.425 610.497 188.294C622.993 215.676 635.915 243.992 651.048 270.327C652.001 271.987 652.977 273.656 653.944 275.29C695.81 345.654 753.239 391.102 820.024 406.722C881.864 421.185 952.74 409.275 1030.69 371.32C1037.16 368.165 1043.81 364.757 1050.46 361.189C1105.18 331.832 1158.72 291.242 1210.5 251.987C1223.97 241.778 1237.89 231.224 1251.66 220.999C1285.07 196.273 1323.94 167.912 1362.53 144.234C1402.89 119.467 1439.85 101.72 1475.52 89.9769C1497.98 82.5216 1517.74 78.6535 1535.91 78.1551C1558.83 77.5241 1579.9 82.3828 1598.54 92.5925C1614.71 101.486 1630.99 114.76 1648.3 133.172C1663.59 149.43 1677.75 167.546 1691.44 185.063C1699.38 195.213 1706.87 204.801 1714.45 213.875C1786.68 300.439 1861.18 393.679 1942.2 498.928L1941.99 499.133Z' fill='%23A1A1A1'/%3E%3Cpath d='M1939 496.161C1858.77 389.781 1785.64 295.48 1715.42 207.871C1707.98 198.596 1700.62 188.717 1692.82 178.262C1665.66 141.856 1637.59 104.21 1601.69 84.7466C1568.14 66.6147 1527.9 67.6243 1478.66 87.8323C1409.81 115.928 1348.27 162.922 1283.11 212.68C1275 218.876 1266.61 225.281 1258.27 231.607C1255 234.09 1251.73 236.579 1248.46 239.065C1186.37 286.293 1122.18 335.129 1054.84 367.127C1048.03 370.364 1041.19 373.441 1034.5 376.268C997.206 392.021 960.925 402.047 926.666 406.067C888.303 410.566 852.084 407.556 819.02 397.119C786.571 386.875 756.018 369.238 728.208 344.698C701.253 320.913 676.921 290.7 655.885 254.894C654.926 253.256 653.959 251.581 653.009 249.918C638.442 224.397 625.56 197.217 613.098 170.932C608.052 160.287 602.832 149.279 597.59 138.565C577.73 97.9283 559.529 66.0594 540.301 38.2763C537.746 34.5849 535.109 30.881 532.458 27.2621C484.236 -38.5548 421.318 -91.4109 350.498 -125.589C265.541 -166.478 178.883 -178.625 106.492 -159.783C32.184 -140.282 -43.4414 -69.6034 -37.2286 22.9776L-37.5106 23.0029C-39.0082 0.671631 -35.8665 -21.2558 -28.1675 -42.1705C-21.0635 -61.4697 -10.2115 -79.63 4.08955 -96.1434C30.5032 -126.646 67.8026 -149.952 106.428 -160.089C144.59 -170.021 186.368 -171.466 230.605 -164.38C270.386 -158.013 310.762 -145.059 350.611 -125.88C421.471 -91.6791 484.428 -38.7946 532.669 27.0571C535.32 30.6759 537.963 34.3862 540.518 38.0775C559.754 65.8764 577.967 97.7548 597.832 138.407C603.078 149.122 608.295 160.133 613.343 170.778C625.8 197.056 638.682 224.23 653.243 249.742C654.193 251.404 655.158 253.077 656.116 254.714C698.89 327.519 755.245 376.652 819.093 396.807C882.121 416.702 954.56 409.689 1034.4 375.965C1041.08 373.138 1047.92 370.065 1054.72 366.831C1122.04 334.845 1186.23 286.018 1248.3 238.797C1251.57 236.308 1254.84 233.821 1258.1 231.338C1266.45 225.013 1274.84 218.608 1282.95 212.415C1348.12 162.647 1409.68 115.641 1478.56 87.5325C1500.81 78.4019 1520.55 73.2813 1538.93 71.871C1561.94 70.1073 1583.09 74.3445 1601.81 84.4595C1617.89 93.1768 1633.96 106.51 1650.95 125.222C1665.94 141.733 1679.72 160.199 1693.04 178.056C1700.83 188.509 1708.2 198.384 1715.63 207.657C1785.86 295.269 1858.99 389.572 1939.21 495.956L1939 496.161Z' fill='%23A1A1A1'/%3E%3Cpath d='M1936.01 493.189C1862.79 394.058 1788.97 295.969 1716.6 201.649C1709.23 192.102 1701.93 181.845 1694.2 170.989C1669.05 135.672 1640.56 95.6438 1604.95 76.6159C1571.02 58.5155 1530.7 61.3835 1481.7 85.3806C1423.45 113.82 1371.89 155.637 1317.31 199.908C1300.21 213.771 1282.54 228.111 1264.71 241.942C1233.59 266.138 1199.92 291.741 1164.63 315.06C1126.84 340.035 1092.31 358.911 1059.08 372.775C1052.1 375.687 1045.07 378.429 1038.18 380.918C1000.1 394.683 962.832 402.517 927.413 404.202C888.205 406.063 851.413 400.346 818.056 387.196C756.458 362.612 702.621 311.176 658.043 234.313C657.093 232.673 656.134 230.994 655.189 229.332C641.362 204.937 628.705 179.201 616.465 154.311C610.704 142.597 604.747 130.482 598.755 118.691C578.139 78.064 559.571 46.476 540.321 19.2828C537.729 15.623 535.059 11.9537 532.377 8.37276C483.568 -56.81 420.188 -108.862 349.092 -142.166C263.584 -182.14 176.692 -193.198 104.42 -173.306C29.6604 -152.612 -44.0699 -82.8705 -40.3388 10.3857L-40.6208 10.3983C-41.5148 -11.9393 -37.967 -33.8414 -30.079 -54.7024C-22.7692 -74.0269 -11.8552 -92.2062 2.36406 -108.732C15.7598 -124.302 31.6373 -137.916 49.5538 -149.199C66.9486 -160.15 85.3839 -168.365 104.35 -173.615C142.47 -184.106 184.293 -186.112 228.659 -179.572C268.536 -173.694 309.09 -161.21 349.199 -142.459C420.337 -109.136 483.754 -57.0529 532.591 8.16138C535.273 11.7455 537.949 15.4179 540.541 19.0777C559.8 46.2867 578.376 77.8874 599 118.527C604.993 130.321 610.949 142.436 616.711 154.154C628.95 179.041 641.604 204.773 655.426 229.158C656.368 230.824 657.329 232.499 658.277 234.14C702.821 310.943 756.61 362.338 818.149 386.897C881.538 411.884 957.595 409.714 1038.1 380.615C1044.97 378.126 1052 375.387 1058.98 372.478C1133.29 341.486 1201.28 290.87 1264.54 241.68C1282.37 227.849 1300.05 213.512 1317.14 199.649C1371.74 155.368 1423.3 113.542 1481.59 85.0903C1530.66 61.0553 1571.06 58.1874 1605.07 76.3288C1621.02 84.8505 1636.85 98.2089 1653.47 117.161C1668.13 133.873 1681.49 152.642 1694.42 170.79C1702.15 181.647 1709.44 191.9 1716.81 201.441C1789.18 295.764 1863 393.853 1936.22 492.987L1936.01 493.189Z' fill='%23A1A1A1'/%3E%3Cpath d='M1933.02 490.217C1860.92 390.537 1788.5 291.356 1717.77 195.428C1710.63 185.777 1703.55 175.34 1696.05 164.291C1671.53 128.15 1643.73 87.1852 1608.22 68.4791C1573.88 50.4103 1533.49 55.1366 1484.75 82.9228C1433.69 111.993 1386.77 153.04 1341.4 192.74C1318.65 212.645 1295.12 233.228 1271.15 252.275C1233.32 282.368 1201.48 305.324 1170.96 324.522C1133.34 348.194 1098.13 365.824 1063.33 378.419C1056.18 381.006 1048.96 383.41 1041.87 385.565C1004.92 396.788 968.627 402.467 933.911 402.47C931.982 402.47 930.064 402.451 928.146 402.416C888.01 401.684 850.648 393.222 817.1 377.271C800.906 369.528 785.048 359.7 769.969 348.058C755.795 337.117 741.866 324.228 728.569 309.753C704.646 283.712 682.282 252.3 660.206 213.73C659.258 212.071 658.313 210.408 657.374 208.739C644.565 185.982 632.447 162.193 620.729 139.186C613.963 125.907 606.969 112.173 599.925 98.8052C578.235 57.6195 559.861 27.2304 540.343 0.277039C537.718 -3.34808 535.013 -6.98268 532.297 -10.5289C482.896 -75.0649 419.057 -126.315 347.684 -158.746C261.63 -197.802 174.501 -207.775 102.347 -186.832C28.9889 -165.478 -44.6455 -95.2066 -43.4469 -2.21228L-43.7289 -2.20912C-44.2873 -45.5244 -28.9429 -86.7132 0.643448 -121.321C14.0166 -136.963 29.8096 -150.675 47.5878 -162.084C64.8867 -173.183 83.2854 -181.613 102.276 -187.141C140.351 -198.193 182.219 -200.758 226.716 -194.763C266.689 -189.378 307.423 -177.36 347.788 -159.042C419.206 -126.59 483.083 -75.3078 532.514 -10.734C535.23 -7.1846 537.94 -3.54686 540.566 0.0782623C560.093 27.0474 578.475 57.446 600.17 98.6474C607.215 112.018 614.212 125.752 620.974 139.032C632.692 162.035 644.807 185.821 657.614 208.572C658.553 210.241 659.495 211.903 660.442 213.56C707.353 295.521 758.632 348.976 817.209 376.98C898.343 415.56 984.124 402.779 1041.8 385.262C1048.89 383.107 1056.1 380.706 1063.24 378.119C1143.27 349.15 1216.3 295.511 1270.99 252.019C1294.96 232.979 1318.48 212.396 1341.23 192.494C1386.61 152.788 1433.53 111.728 1484.62 82.6452C1506.43 70.2112 1526.17 62.5761 1544.96 59.3075C1568.14 55.2754 1589.46 58.2664 1608.34 68.1984C1624.24 76.575 1639.92 90.0406 1656.27 109.362C1670.68 126.386 1683.7 145.56 1696.28 164.105C1703.77 175.15 1710.85 185.584 1717.99 195.229C1788.72 291.158 1861.13 390.339 1933.24 490.018L1933.02 490.217Z' fill='%23A1A1A1'/%3E%3Cpath d='M1930.03 487.245L1718.95 189.209C1712.06 179.476 1705.21 168.885 1697.96 157.675C1674.04 120.679 1646.93 78.7488 1611.49 60.3519C1577.21 42.5639 1535.6 49.3345 1487.8 80.4778C1441.85 110.416 1399.94 150.229 1359.41 188.733C1332.99 213.831 1305.67 239.781 1277.6 262.62C1193.23 331.267 1119.5 371.813 1045.57 390.222C1014.89 397.857 984.637 401.7 955.293 401.7C946.399 401.7 937.594 401.347 928.883 400.64C887.799 397.308 849.867 386.108 816.147 367.354C784.894 349.97 756.303 325.431 728.75 292.328C706.747 265.895 685.655 234.383 662.375 193.156C650.087 171.399 638.189 148.793 626.683 126.932C600.641 77.4615 573.714 26.306 540.377 -18.7161C489.242 -87.7701 422.122 -141.923 346.274 -175.322C259.675 -213.457 172.31 -222.348 100.274 -200.354C30.5318 -179.061 -45.1642 -111.915 -46.5573 -14.8039L-46.8394 -14.8102C-46.2161 -58.217 -30.3922 -99.3995 -1.07943 -133.906C25.4244 -165.106 61.3928 -188.813 100.201 -200.66C138.234 -212.27 180.147 -215.397 224.77 -209.948C264.839 -205.058 305.754 -193.504 346.378 -175.615C383.909 -159.089 419.553 -137.335 452.323 -110.956C485.367 -84.3564 515.066 -53.393 540.592 -18.9244C573.943 26.1136 600.878 77.2818 626.925 126.765C638.432 148.623 650.33 171.226 662.614 192.98C696.58 253.133 744.743 327.279 816.274 367.064C898.306 412.689 986.208 404.669 1045.5 389.907C1119.4 371.51 1193.1 330.98 1277.43 262.358C1305.49 239.529 1332.81 213.579 1359.22 188.487C1399.76 149.977 1441.68 110.154 1487.66 80.2001C1535.54 49.0033 1577.24 42.2263 1611.61 60.0616C1627.48 68.2994 1643.01 81.8818 1659.1 101.591C1673.27 118.941 1685.94 138.536 1698.19 157.486C1705.44 168.695 1712.28 179.28 1719.17 189.011L1930.25 487.047L1930.03 487.245Z' fill='%23A1A1A1'/%3E%3Cpath d='M1928.33 464.334C1874.58 381.351 1828.46 314.013 1783.2 252.424C1761.22 222.505 1738.78 193.056 1716.5 164.894C1709.76 156.375 1703.08 147.314 1696.01 137.72C1678.24 113.606 1659.87 88.6719 1638.73 70.1677C1627.38 60.2136 1616.45 53.0864 1605.32 48.3791C1571.16 33.7871 1531.08 43.4352 1486.2 77.0582C1462.97 94.433 1441.81 114.205 1424.19 131.255C1405.53 149.305 1387.12 169.21 1369.32 188.459C1343.73 216.128 1317.27 244.738 1288.83 269.31C1271.52 284.305 1253.98 297.705 1236.68 309.139C1202.08 332.012 1164.93 350.861 1126.29 365.159C1102.41 373.895 1078.41 380.499 1054.98 384.783C1034.78 388.462 1014.54 390.585 994.822 391.093C965.315 391.857 936.566 388.945 909.374 382.43C880.462 375.501 853.101 364.443 828.052 349.557C805.716 336.284 784.619 319.572 763.555 298.462C724.304 259.157 692.997 213.709 670.109 178.505C658.865 161.13 647.886 143.412 637.268 126.277C606.695 76.9289 577.816 30.3197 541.679 -11.1972C512.205 -44.836 478.578 -73.8654 441.721 -97.4839C413.398 -115.635 382.593 -130.479 350.164 -141.607C342.44 -144.254 334.569 -146.721 326.777 -148.933C293.228 -158.439 255.461 -164.629 214.526 -167.333C173.256 -170.122 137.55 -167.708 105.374 -159.947C87.1844 -155.593 69.5613 -148.762 52.9872 -139.648C-5.52551 -107.466 -43.0985 -53.443 -47.5205 4.86818L-47.873 4.83348C-46.6942 -10.7113 -43.2339 -26.0226 -37.5907 -40.6809C-32.2296 -54.604 -24.8662 -68.0318 -15.7063 -80.5919C1.60104 -104.318 25.3017 -124.863 52.8321 -140.004C69.4315 -149.135 87.0829 -155.975 105.301 -160.335C137.51 -168.103 173.244 -170.52 214.549 -167.727C255.506 -165.023 293.293 -158.827 326.864 -149.315C334.665 -147.1 342.539 -144.633 350.269 -141.982C382.723 -130.848 413.553 -115.991 441.899 -97.8247C478.781 -74.1904 512.436 -45.1358 541.924 -11.4748C578.084 30.0673 606.968 76.6891 637.553 126.049C648.168 143.184 659.147 160.9 670.388 178.271C693.265 213.459 724.558 258.885 763.786 298.165C784.827 319.254 805.902 335.95 828.213 349.207C877.235 378.338 933.286 392.299 994.811 390.699C1014.51 390.191 1034.73 388.068 1054.92 384.392C1078.34 380.108 1102.32 373.51 1126.17 364.781C1164.8 350.491 1201.92 331.656 1236.5 308.795C1253.78 297.37 1271.32 283.977 1288.61 268.994C1317.04 244.435 1343.49 215.832 1369.07 188.172C1386.88 168.92 1405.29 149.009 1423.95 130.952C1441.59 113.893 1462.75 94.1143 1486 76.727C1505.98 61.7564 1525.33 51.4142 1543.51 45.9844C1565.85 39.3147 1586.68 39.9962 1605.44 48.0099C1616.61 52.733 1627.56 59.8792 1638.94 69.8553C1660.12 88.3879 1678.5 113.338 1696.28 137.467C1703.35 147.059 1710.03 156.12 1716.76 164.632C1739.05 192.797 1761.5 222.249 1783.47 252.175C1828.74 313.77 1874.86 381.114 1928.61 464.104L1928.33 464.334Z' fill='%23A1A1A1'/%3E%3Cpath d='M1926.63 441.416C1876.79 357.028 1830.02 286.412 1783.64 225.536C1761.02 195.8 1737.6 167.216 1714.05 140.578C1707.8 133.511 1701.64 126.166 1695.11 118.392C1675.54 95.1108 1655.32 71.038 1632.66 54.3826C1621.23 45.9366 1610.27 40.0557 1599.15 36.4022C1556.6 22.4065 1513.37 48.9213 1484.59 73.6283C1464.21 91.0818 1445.59 110.816 1426.73 131.188C1410.22 149.021 1394.69 168.203 1378.25 188.509C1353.85 218.652 1328.61 249.821 1300.06 275.991C1283.11 291.606 1265.43 305.106 1247.49 316.117C1214.09 336.631 1177.51 352.561 1135.66 364.821C1112.24 371.68 1088.26 376.567 1064.38 379.341C1044.23 381.653 1024.12 382.48 1004.59 381.789C975.552 380.773 947.165 376.204 920.215 368.213C891.912 359.817 864.906 347.551 839.951 331.753C818.086 317.915 796.974 300.746 775.408 279.266C736.242 240.311 702.691 197.125 677.839 163.852C668.64 151.535 659.587 139.142 650.831 127.153C615.959 79.4114 583.023 34.3135 542.982 -3.67925C513.057 -32.0745 479.461 -56.0842 443.131 -75.0396C415.643 -89.3823 386.508 -100.128 354.065 -107.893C346.578 -109.682 338.96 -111.294 331.428 -112.685C298.342 -118.765 263.03 -121.065 220.308 -123.444C189.512 -125.245 149.197 -126.432 110.468 -119.547C92.1258 -116.348 74.3954 -110.792 57.765 -103.04C-0.787224 -75.74 -40.5064 -28.0486 -48.4874 24.5393L-48.9048 24.4604C-46.7897 10.5152 -42.503 -3.16182 -36.1718 -16.1952C-30.1366 -28.6134 -22.2063 -40.5205 -12.6037 -51.5946C5.64557 -72.6323 29.9215 -90.5749 57.6014 -103.479C74.2629 -111.247 92.0271 -116.812 110.4 -120.018C149.166 -126.911 189.512 -125.722 220.327 -123.92C263.064 -121.541 298.387 -119.241 331.495 -113.159C339.034 -111.764 346.657 -110.152 354.153 -108.363C386.627 -100.589 415.79 -89.8335 443.309 -75.4749C479.675 -56.5006 513.3 -32.472 543.256 -4.04839C583.324 33.9728 616.275 79.0833 651.158 126.844C659.912 138.83 668.964 151.223 678.164 163.537C703.009 196.797 736.547 239.967 775.69 278.904C797.231 300.361 818.32 317.512 840.159 331.334C889.23 362.395 944.562 379.208 1004.61 381.309C1024.11 381.997 1044.21 381.174 1064.34 378.861C1088.2 376.091 1112.16 371.21 1135.55 364.354C1177.37 352.106 1213.92 336.189 1247.29 315.694C1265.2 304.696 1282.87 291.214 1299.79 275.616C1328.32 249.467 1353.55 218.311 1377.94 188.184C1394.39 167.869 1409.92 148.683 1426.44 130.841C1445.31 110.457 1463.93 90.7159 1484.34 73.2434C1502.99 57.2253 1521.39 45.7032 1539.03 38.9893C1560.41 30.8493 1580.68 29.824 1599.28 35.9384C1610.43 39.6077 1621.43 45.5075 1632.9 53.9788C1655.59 70.6657 1675.84 94.7606 1695.42 118.06C1701.94 125.831 1708.11 133.173 1714.36 140.237C1737.92 166.884 1761.33 195.478 1783.96 225.224C1830.35 286.116 1877.14 356.744 1926.98 441.151L1926.63 441.416Z' fill='%23A1A1A1'/%3E%3Cpath d='M1924.92 418.497C1878.28 331.56 1832.21 259.648 1784.08 198.652C1760.8 169.099 1736.42 141.382 1711.61 116.265C1706.31 110.895 1700.85 105.197 1695.57 99.6882C1673.77 76.9279 1651.22 53.3945 1626.61 38.6006C1615.05 31.6091 1604.06 26.9712 1592.99 24.4251C1550.53 14.6477 1509.74 43.92 1483 70.1951C1464.87 87.9326 1448.3 108.036 1432.28 127.481L1429.28 131.122C1414.73 148.761 1401.08 168.108 1386.63 188.594C1363.62 221.213 1339.83 254.941 1311.29 282.673C1294.68 298.928 1276.85 312.529 1258.3 323.099C1225.96 341.527 1189.96 354.677 1145.03 364.483C1121.79 369.553 1097.82 372.721 1073.78 373.894C1053.68 374.838 1033.69 374.365 1014.36 372.481C955.84 366.805 901.162 347.111 851.844 313.949C830.523 299.613 809.397 281.992 787.262 260.071C749.802 223.053 716.484 185.003 685.573 149.203C681.427 144.404 677.326 139.637 673.257 134.908C631.036 85.8503 591.159 39.5124 544.294 3.84806C513.698 -19.436 480.135 -38.4229 444.542 -52.589C418.41 -62.9879 390.09 -70.0489 357.969 -74.1757C350.729 -75.1001 343.366 -75.8604 336.081 -76.4347C317.756 -77.8544 298.319 -78.0847 277.741 -78.3277C261.212 -78.5233 244.122 -78.7252 226.087 -79.5487C191.255 -81.2745 151.778 -83.2274 115.556 -79.1385C96.8669 -77.0278 79.0294 -72.7496 62.5371 -66.4206C4.0075 -43.9568 -37.8606 -2.59135 -49.4599 44.2324L-49.9365 44.0841C-46.8795 31.7385 -41.7693 19.6957 -34.75 8.29034C-28.038 -2.61658 -19.5437 -13.0092 -9.50389 -22.5973C9.69858 -40.9343 34.5555 -56.2677 62.3735 -66.9443C78.9025 -73.2891 96.7767 -77.5768 115.503 -79.6906C151.761 -83.7827 191.258 -81.8266 226.104 -80.1008C244.127 -79.2805 261.217 -79.0754 277.741 -78.8798C298.328 -78.6369 317.77 -78.4065 336.112 -76.9836C343.402 -76.4063 350.774 -75.6459 358.019 -74.7215C390.18 -70.5916 418.534 -63.5211 444.703 -53.1064C480.338 -38.9246 513.938 -19.9156 544.567 3.39375C591.475 39.0897 631.372 85.4496 673.609 134.529C677.679 139.259 681.782 144.023 685.925 148.825C716.831 184.618 750.137 222.658 787.586 259.664C809.699 281.56 830.802 299.165 852.097 313.482C901.351 346.603 955.958 366.269 1014.4 371.938C1033.71 373.819 1053.68 374.292 1073.75 373.349C1097.77 372.175 1121.72 369.01 1144.93 363.947C1189.82 354.15 1225.77 341.016 1258.08 322.613C1276.59 312.065 1294.38 298.489 1310.96 282.263C1339.47 254.565 1363.24 220.857 1386.24 188.256C1400.69 167.761 1414.35 148.405 1428.91 130.753L1431.91 127.112C1447.94 107.658 1464.52 87.5414 1482.67 69.7849C1509.49 43.4247 1550.43 14.0672 1593.09 23.8888C1604.2 26.4475 1615.24 31.1012 1626.84 38.1211C1651.51 52.9465 1674.08 76.5051 1695.9 99.2907C1701.18 104.799 1706.64 110.497 1711.94 115.864C1736.76 140.994 1761.15 168.726 1784.44 198.295C1832.6 259.317 1878.68 331.254 1925.34 418.219L1924.92 418.497Z' fill='%23A1A1A1'/%3E%3Cpath d='M1923.22 395.576C1880.4 307.327 1833.73 232.026 1784.52 171.771C1760.59 142.405 1735.24 115.552 1709.17 91.9589C1705.41 88.5515 1701.55 85.0147 1697.82 81.5946C1673.18 59.0015 1647.7 35.6354 1620.56 22.826C1608.91 17.27 1597.89 13.8784 1586.84 12.4523C1544.5 6.98782 1506.13 38.9703 1481.4 66.7629C1466.05 83.9325 1452.18 103.027 1438.78 121.493C1436.46 124.689 1434.14 127.879 1431.82 131.056C1419.07 148.51 1407.15 168.008 1394.53 188.648C1373.08 223.738 1350.89 260.021 1322.52 289.362C1305.86 306.592 1288.39 319.912 1269.11 330.091C1228.79 351.377 1188.49 359.256 1154.39 364.158C1131.33 367.471 1107.37 368.922 1083.17 368.462C1063.14 368.036 1043.27 366.26 1024.12 363.187C967.363 354.097 913.402 331.545 863.742 296.155C843.078 281.434 821.941 263.355 799.118 240.889C776.063 218.248 754.579 196.463 733.8 175.393C719.679 161.073 706.34 147.547 693.314 134.571C644.074 85.5163 598.971 42.3872 545.616 11.3859C514.363 -6.77123 480.834 -20.7417 445.96 -30.1342C420.965 -36.867 394.247 -40.1451 361.88 -40.4574C354.897 -40.5142 347.785 -40.4227 340.743 -40.1829C330.046 -39.7949 318.98 -38.984 307.268 -38.1227C284.791 -36.4726 259.311 -34.6017 231.865 -35.6491C221.413 -36.0498 210.75 -36.6146 200.437 -37.1636C173.911 -38.5739 146.482 -40.0315 120.641 -38.7284C101.664 -37.7693 83.7163 -34.7657 67.303 -29.7997C8.87207 -12.1158 -35.1422 22.927 -50.4387 63.9391L-50.9604 63.6962C-46.9558 52.9565 -41.0222 42.5512 -33.326 32.7675C-25.9343 23.3719 -16.876 14.4968 -6.40756 6.39154C13.765 -9.22582 39.2001 -21.95 67.1507 -30.4086C83.6035 -35.3873 101.59 -38.4003 120.61 -39.3594C146.479 -40.6656 173.919 -39.2049 200.46 -37.7946C210.77 -37.2456 221.433 -36.6808 231.882 -36.2801C259.302 -35.2327 284.763 -37.1004 307.228 -38.7505C318.946 -39.6118 330.015 -40.4227 340.723 -40.8108C347.774 -41.0505 354.892 -41.142 361.883 -41.0853C394.295 -40.7761 421.053 -37.4885 446.09 -30.7462C481.006 -21.3411 514.58 -7.3549 545.873 10.8275C569.974 24.8295 594.397 42.5702 620.537 65.0592C643.938 85.1914 666.703 107.22 693.686 134.101C706.712 147.08 720.052 160.606 734.175 174.926C754.951 195.993 776.435 217.778 799.484 240.415C822.285 262.86 843.4 280.919 864.038 295.625C913.63 330.968 967.515 353.488 1024.2 362.565C1043.32 365.635 1063.16 367.408 1083.18 367.834C1107.34 368.295 1131.28 366.847 1154.31 363.534C1188.37 358.64 1228.61 350.772 1268.87 329.523C1288.09 319.373 1305.51 306.087 1322.13 288.902C1350.45 259.61 1372.62 223.356 1394.06 188.294C1406.69 167.642 1418.62 148.134 1431.38 130.662C1433.7 127.484 1436.02 124.295 1438.34 121.102C1451.75 102.623 1465.62 83.516 1480.99 66.3243C1497.08 48.2429 1513.59 34.3324 1530.05 24.9809C1549.55 13.9036 1568.68 9.4803 1586.9 11.834C1597.99 13.2663 1609.07 16.6738 1620.77 22.2518C1647.98 35.0959 1673.49 58.4904 1698.17 81.1119C1701.9 84.532 1705.75 88.0687 1709.51 91.473C1735.6 115.085 1760.97 141.963 1784.92 171.352C1811.05 203.347 1836.64 239.8 1860.98 279.698C1882.49 314.962 1903.59 353.851 1923.7 395.28L1923.22 395.576Z' fill='%23A1A1A1'/%3E%3Cpath d='M1921.52 372.649C1881.89 281.869 1835.94 205.24 1784.96 144.888C1760.38 115.707 1734.06 89.7221 1706.74 67.6495C1705.44 66.5989 1704.14 65.5483 1702.84 64.4945C1674.42 41.5133 1645.04 17.7497 1614.53 7.05101C1602.71 2.90531 1591.64 0.756737 1580.71 0.479095C1538.53 -0.587302 1502.56 34.0675 1479.82 63.324C1466.43 80.44 1454.55 99.1998 1443.06 117.341C1440.22 121.828 1437.28 126.465 1434.38 130.983C1423.34 148.191 1413.07 167.755 1402.2 188.471C1382.43 226.152 1361.99 265.113 1333.76 296.045C1317.43 313.94 1299.82 327.362 1279.93 337.079C1240.73 356.221 1200.93 361.246 1163.76 363.827C1140.84 365.417 1116.89 365.146 1092.57 363.023C1072.6 361.224 1052.86 358.148 1033.89 353.883C979.062 341.578 925.817 316.168 875.643 278.355C855.55 263.214 835.002 245.211 810.983 221.7C765.333 177.138 731.435 145.752 701.073 119.935C640.685 68.5866 594.595 38.3772 546.965 18.9234C515.078 5.89943 481.582 -3.05137 447.405 -7.68295C423.693 -10.8948 398.529 -10.6076 365.815 -6.74274C359.111 -5.94136 352.253 -4.99802 345.428 -3.93478C338.981 -2.91571 332.433 -1.74834 325.498 -0.514726C299.894 4.04428 270.871 9.2122 237.655 8.24676C220.148 7.7388 202.265 6.34745 184.972 5.00341C165.318 3.47638 144.996 1.8957 125.729 1.68116C106.411 1.46662 88.3533 3.19558 72.0726 6.82386C13.8363 19.7942 -32.3298 48.5206 -51.4195 83.6644L-51.9609 83.2953C-47.0031 74.1647 -40.246 65.3969 -31.8785 57.2348C-23.8016 49.3536 -14.1849 41.9992 -3.2934 35.3705C17.8634 22.4917 43.8822 12.3767 71.9485 6.12659C88.2744 2.49201 106.371 0.756737 125.735 0.971278C145.019 1.18582 165.352 2.7665 185.014 4.29668C202.302 5.64072 220.176 7.03208 237.67 7.54004C270.826 8.50232 299.817 3.34071 325.393 -1.21199C332.331 -2.44876 338.885 -3.61296 345.335 -4.63518C352.168 -5.69843 359.032 -6.64179 365.742 -7.44632C398.506 -11.3144 423.713 -11.6046 447.475 -8.38335C481.701 -3.74547 515.244 5.21796 547.177 18.2608C594.871 37.7399 641.009 67.9808 701.451 119.373C731.824 145.2 765.733 176.596 811.395 221.17C835.397 244.662 855.922 262.646 875.993 277.771C926.099 315.53 979.265 340.906 1034.01 353.192C1052.95 357.451 1072.67 360.521 1092.62 362.319C1116.91 364.439 1140.83 364.711 1163.72 363.124C1200.83 360.546 1240.56 355.533 1279.67 336.435C1299.49 326.756 1317.04 313.379 1333.31 295.546C1361.48 264.681 1381.9 225.76 1401.65 188.121C1412.53 167.392 1422.8 147.812 1433.86 130.58C1436.76 126.065 1439.7 121.427 1442.54 116.94C1454.04 98.7833 1465.93 80.0109 1479.34 62.8665C1494.18 43.7723 1509.74 28.6692 1525.59 17.9737C1544.15 5.44511 1562.7 -0.672479 1580.72 -0.221311C1591.72 0.0563316 1602.84 2.21752 1614.71 6.38215C1645.33 17.1187 1674.75 40.9139 1703.21 63.9298C1704.51 64.9836 1705.81 66.0373 1707.11 67.0848C1734.46 89.1826 1760.81 115.199 1785.42 144.411C1836.44 204.817 1882.42 281.506 1922.08 372.349L1921.52 372.649Z' fill='%23A1A1A1'/%3E%3Cpath d='M1177.79 363.499C1176.21 363.499 1174.65 363.496 1173.12 363.486C1150.31 363.379 1126.37 361.391 1101.96 357.574C1082.06 354.403 1062.44 350.027 1043.65 344.572C1016.8 336.792 989.859 325.61 963.561 311.34C938.165 297.559 912.589 280.471 887.541 260.547C862.997 241.027 840.072 219.277 822.841 202.508C782.524 163.379 744.164 130.674 708.827 105.298C651.595 64.2009 600.592 39.1468 548.315 26.4541C516.777 18.7969 482.941 14.7585 450.362 14.7585C449.858 14.7585 449.356 14.7585 448.851 14.7616C420.863 14.8689 394.292 20.6868 369.751 26.9589C363.363 28.6027 356.756 30.3979 350.111 32.3004C346.47 33.3542 342.824 34.4395 338.966 35.5879C311.754 43.6995 280.91 52.8901 243.439 52.136C220.618 51.6754 197.309 49.0315 174.768 46.4728C160.213 44.8195 145.165 43.1127 130.81 42.081C111.077 40.6644 92.9183 41.1187 76.8321 43.4376C18.906 51.7795 -29.4118 74.1928 -52.4215 103.396L-52.9517 102.875C-41.1493 87.8982 -23.3964 74.9311 -0.186436 64.3302C21.98 54.2089 48.5826 46.7125 76.7419 42.6583C92.8704 40.3362 111.077 39.8756 130.855 41.2985C145.224 42.3302 160.281 44.0402 174.841 45.6935C197.369 48.2522 220.663 50.8961 243.453 51.3536C280.828 52.1077 311.619 42.9297 338.786 34.8339C342.646 33.6823 346.293 32.597 349.936 31.5432C356.586 29.6407 363.2 27.8424 369.593 26.1986C394.176 19.917 420.793 14.0896 448.848 13.9792C481.945 13.8498 516.388 17.9009 548.464 25.6906C575.445 32.2436 601.602 41.8885 628.424 55.1775C654.257 67.9774 680.682 84.1563 709.205 104.642C744.57 130.037 782.958 162.767 823.3 201.921C840.517 218.68 863.426 240.415 887.944 259.913C938.772 300.342 991.218 328.57 1043.83 343.818C1062.59 349.267 1082.18 353.636 1102.05 356.804C1126.44 360.615 1150.35 362.603 1173.12 362.707C1208.75 362.871 1250.12 361.527 1290.47 343.338C1310.89 334.132 1328.56 320.67 1344.49 302.184C1372.45 269.719 1390.99 228.051 1408.93 187.752C1418.15 167.023 1426.86 147.443 1436.34 130.494C1439.37 125.064 1442.43 119.471 1445.39 114.06C1455.4 95.7795 1465.74 76.8809 1477.66 59.4115C1491.28 39.314 1505.9 23.012 1521.1 10.9598C1538.73 -3.01376 1556.7 -10.8319 1574.52 -12.2769C1585.51 -13.1698 1596.67 -12.258 1608.64 -9.48787C1640.62 -2.08618 1672.32 19.4184 1704.69 42.693C1732.9 62.9862 1760.99 88.8416 1785.91 117.467C1813.58 149.172 1839.58 186.366 1863.19 228.016C1884.22 265.122 1903.49 305.967 1920.45 349.418L1919.81 349.734C1883.38 256.421 1838.16 178.46 1785.4 118.019C1760.52 89.4347 1732.48 63.6171 1704.3 43.3587C1672 20.1252 1640.36 -1.33844 1608.49 -8.71488C1596.59 -11.4692 1585.5 -12.3747 1574.57 -11.4882C1541.83 -8.82848 1507.62 16.519 1478.22 59.8911C1466.33 77.3289 1455.99 96.2117 1445.99 114.473C1443.03 119.887 1439.97 125.484 1436.93 130.914C1427.48 147.831 1418.77 167.395 1409.56 188.105C1400.76 207.877 1391.66 228.325 1381.22 247.981C1369.38 270.265 1357.54 288.173 1345 302.733C1329 321.301 1311.25 334.823 1290.73 344.073C1272.64 352.232 1253.19 357.624 1231.27 360.565C1212.71 363.042 1194.07 363.499 1177.79 363.499Z' fill='%23A1A1A1'/%3E%3Cpath d='M1223.02 365.08C1208.64 365.08 1194.82 364.121 1182.47 363.149C1159.74 361.363 1135.81 357.656 1111.34 352.129C1091.52 347.589 1072.03 341.916 1053.4 335.262C1002.39 317.079 952.022 286.813 899.428 242.741C876.492 223.524 854.87 202.846 834.695 183.316C794.863 144.872 755.126 113.7 716.583 90.6624C659.898 56.7806 606.862 38.7686 549.675 33.9792C517.091 31.2501 482.73 32.3639 450.304 37.1974C423.163 41.2421 397.575 51.0038 373.689 60.6518C367.713 63.078 361.356 65.7282 354.799 68.5267C353.161 69.2303 351.508 69.9465 349.833 70.669C322.322 82.5698 291.193 96.0354 251.243 96.0354C250.569 96.0354 249.898 96.0322 249.218 96.0228C222.19 95.7167 194.594 91.4007 167.904 87.2234C157.323 85.567 146.381 83.857 135.881 82.472C115.373 79.7713 97.6117 78.973 81.5791 80.0394C23.2667 83.9201 -25.9536 99.6195 -53.4558 123.121L-53.9268 122.43C-40.3308 110.813 -20.6714 100.727 2.91924 93.2621C26.1235 85.9204 53.307 81.049 81.5312 79.1718C97.6089 78.1022 115.415 78.9005 135.969 81.6075C146.479 82.9925 157.425 84.7057 168.009 86.3589C194.673 90.5299 222.243 94.8428 249.221 95.1488C290.003 95.6158 321.64 81.9261 349.548 69.8519C351.22 69.1294 352.876 68.4132 354.514 67.7064C361.077 64.9048 367.436 62.2546 373.418 59.8284C397.344 50.1614 422.979 40.3871 450.194 36.3298C482.671 31.49 517.088 30.373 549.726 33.1053C578.066 35.4779 605.086 41.0812 632.328 50.2308C660.386 59.6548 688.063 72.6251 716.942 89.8894C755.533 112.959 795.319 144.168 835.194 182.65C855.361 202.173 876.969 222.839 899.885 242.037C952.408 286.05 1002.7 316.272 1053.63 334.426C1072.23 341.067 1091.7 346.733 1111.48 351.267C1135.92 356.789 1159.82 360.493 1182.51 362.272C1220.69 365.269 1261.31 366.809 1301.26 350.223C1322.29 341.493 1340.08 327.945 1355.65 308.804C1383.4 274.707 1400.66 228.199 1415.9 187.165C1423.57 166.519 1430.81 147.017 1438.8 130.394C1441.68 124.396 1444.58 118.196 1447.39 112.202C1456.16 93.4451 1465.24 74.0512 1475.98 55.9382C1488.41 34.8374 1502.08 17.3365 1516.62 3.92135C1533.31 -11.4846 1550.7 -21.0002 1568.31 -24.354C1579.31 -26.452 1590.51 -26.7865 1602.55 -25.3857C1636.18 -21.464 1670.34 -2.08583 1702.25 18.2735C1731.72 37.0712 1760.81 62.0463 1786.39 90.4983C1814.83 122.055 1841.04 159.622 1864.29 202.148C1885.07 240.179 1903.42 282.002 1918.82 326.462L1918.1 326.775C1885.36 232.269 1839.63 150.778 1785.84 91.1104C1760.32 62.7121 1731.28 37.7842 1701.87 19.0244C1670.04 -1.28761 1635.96 -20.6184 1602.47 -24.5243C1590.5 -25.9189 1579.37 -25.5844 1568.44 -23.5021C1535.94 -17.3088 1503.34 11.0706 1476.63 56.4114C1465.91 74.4866 1456.85 93.8616 1448.08 112.599C1445.27 118.597 1442.37 124.797 1439.49 130.801C1431.51 147.387 1424.28 166.869 1416.62 187.493C1401.36 228.591 1384.06 275.174 1356.23 309.384C1340.57 328.63 1322.68 342.253 1301.53 351.034C1283.18 358.65 1263.39 363.061 1241.02 364.509C1234.97 364.919 1228.95 365.08 1223.02 365.08Z' fill='%23A1A1A1'/%3E%3Cpath d='M1251.4 368.496C1251.2 368.496 1250.99 368.496 1250.79 368.496C1230.46 368.44 1210.51 365.657 1191.81 362.811C1169.13 359.359 1145.21 353.93 1120.72 346.679C1101 340.776 1081.63 333.801 1063.16 325.951C1014.18 305.169 965.936 273.073 911.324 224.937C891.656 207.606 872.301 188.944 853.581 170.901C851.24 168.642 848.897 166.386 846.553 164.13C806.515 125.695 765.4 96.054 724.353 76.0322C668.144 48.6182 611.456 37.3232 551.048 41.5036C517.925 43.7973 483.596 50.0664 451.77 59.6324C426.659 67.1824 404.284 79.2945 377.639 94.344C372.239 97.4075 366.472 100.714 359.494 104.752L359.105 104.98C345.645 112.823 330.388 121.711 313.275 128.469C293.621 136.23 274.554 139.966 255.002 139.921C224.513 139.836 193.398 133.488 163.31 127.345C155.938 125.841 148.312 124.285 140.952 122.878C119.843 118.849 101.974 116.814 86.3253 116.659C28.7038 116.092 -22.6288 125.645 -54.5079 142.865L-54.8745 142.013C-39.2593 133.577 -18.1955 126.73 6.03813 122.212C30.3169 117.685 58.0842 115.438 86.3337 115.716C102.028 115.871 119.942 117.909 141.096 121.947C148.462 123.354 156.088 124.91 163.462 126.415C193.514 132.548 224.589 138.89 255.005 138.975C255.14 138.975 255.278 138.975 255.414 138.975C298.92 138.975 332.066 119.666 358.716 104.14L359.108 103.913C366.088 99.8716 371.855 96.5651 377.259 93.5016C403.949 78.4269 426.363 66.2927 451.553 58.7206C483.432 49.1356 517.818 42.8571 550.997 40.5603C580.558 38.5158 608.441 40.0744 636.245 45.3307C666.207 50.9939 695.139 60.7524 724.691 75.1677C765.818 95.2274 807.003 124.916 847.106 163.414C849.449 165.67 851.793 167.929 854.134 170.188C872.845 188.225 892.195 206.88 911.845 224.198C966.387 272.275 1014.56 304.326 1063.45 325.074C1081.9 332.914 1101.24 339.877 1120.94 345.774C1145.39 353.015 1169.28 358.435 1191.93 361.88C1232.5 368.058 1272.22 372.342 1312.07 357.148C1333.7 348.901 1351.61 335.268 1366.83 315.467C1394.33 279.698 1409.35 230.136 1422.6 186.404C1428.81 165.931 1434.67 146.591 1441.28 130.34C1443.82 124.086 1446.37 117.619 1448.84 111.362C1456.56 91.801 1464.53 71.5773 1474.32 52.5083C1485.58 30.3948 1498.31 11.6918 1512.14 -3.07998C1527.92 -19.9152 1544.72 -31.1218 1562.1 -36.3844C1572.88 -39.6467 1583.87 -41.2368 1595.69 -41.2368C1595.95 -41.2368 1596.2 -41.2368 1596.46 -41.2337C1633.2 -41.0191 1671 -22.3477 1699.83 -6.10565C1730.55 11.1996 1760.65 35.2914 1786.88 63.5667C1816.1 94.9781 1842.52 132.914 1865.4 176.324C1885.92 215.279 1903.35 258.083 1917.2 303.553L1916.4 303.86C1895.8 236.203 1856.5 139.716 1786.29 64.2514C1760.12 36.0392 1730.1 12.0042 1699.45 -5.26011C1670.71 -21.458 1633.02 -40.0758 1596.46 -40.2872C1584.42 -40.366 1573.26 -38.7822 1562.32 -35.4694C1530.13 -25.7173 1499.13 5.69412 1475.05 52.9784C1465.29 72.0032 1457.32 92.2048 1449.61 111.744C1447.15 118.003 1444.59 124.474 1442.05 130.731C1435.45 146.941 1429.6 166.256 1423.4 186.707C1410.13 230.518 1395.08 280.175 1367.47 316.082C1352.15 336.016 1334.12 349.74 1312.34 358.041C1293.89 365.073 1273.95 368.496 1251.4 368.496Z' fill='%23A1A1A1'/%3E%3Cpath d='M1273.97 372.939C1269.59 372.939 1265.12 372.781 1260.54 372.466C1240.5 371.087 1221.01 366.951 1201.16 362.471C1178.14 357.278 1154.9 350.33 1130.1 341.231C1110.48 333.968 1091.24 325.696 1072.91 316.638C1026.41 293.694 980.245 259.92 923.219 207.13C909.056 194.021 894.899 180.271 881.207 166.973C873.753 159.735 866.049 152.248 858.414 144.938C817.9 106.245 775.411 78.1401 732.128 61.3996C674.938 39.2797 616.16 35.2287 552.43 49.0161C518.76 56.3011 484.461 67.7254 453.245 82.0524C428.168 93.5619 406.323 109.725 383.195 126.838L381.596 128.021C377.983 130.703 374.331 133.422 370.634 136.174C368.505 137.761 366.361 139.357 364.198 140.966C350.712 151.053 336.146 161.575 319.442 169.674C300.048 179.076 280.865 183.701 260.791 183.814C227.372 183.997 193.285 175.309 160.323 166.897C155.619 165.695 150.751 164.455 146.028 163.278C123.881 157.757 106.421 154.58 91.0741 153.274C34.4396 148.456 -19.0081 151.851 -55.5686 162.591L-55.8027 161.6C-19.1463 150.832 34.4114 147.424 91.1446 152.252C106.534 153.561 124.039 156.748 146.228 162.278C150.955 163.458 155.822 164.698 160.529 165.9C193.088 174.207 226.744 182.792 259.72 182.792C260.075 182.792 260.43 182.792 260.789 182.789C303.441 182.549 333.802 162.464 363.693 140.114C365.856 138.505 368 136.909 370.129 135.322C373.826 132.567 377.475 129.851 381.091 127.166L382.69 125.983C405.858 108.842 427.739 92.6501 452.898 81.1027C484.171 66.7473 518.529 55.3041 552.258 48.0065C616.148 34.1844 675.084 38.248 732.429 60.4279C775.82 77.2126 818.408 105.381 859.012 144.159C866.646 151.472 874.354 158.956 881.808 166.197C895.494 179.492 909.648 193.239 923.803 206.338C980.761 259.068 1026.86 292.795 1073.28 315.701C1091.58 324.743 1110.79 333.006 1130.39 340.256C1155.15 349.343 1178.36 356.281 1201.34 361.464C1236.23 369.336 1279.64 379.136 1322.88 364.042C1345.11 356.284 1363.14 342.566 1378.01 322.102C1405.24 284.621 1417.86 231.903 1429.01 185.395C1433.85 165.19 1438.42 146.106 1443.75 130.267C1445.83 124.096 1447.92 117.714 1449.93 111.539C1456.69 90.8328 1463.67 69.4228 1472.65 49.0603C1482.77 25.9182 1494.55 6.01317 1507.66 -10.1027C1522.52 -28.364 1538.74 -41.2585 1555.89 -48.4299C1566.9 -53.0331 1578.17 -55.8694 1590.37 -57.103C1606.7 -58.7563 1624.09 -56.9895 1643.52 -51.7143C1659.96 -47.2468 1677.59 -40.312 1697.41 -30.5094C1729.37 -14.6995 1760.48 8.51193 1787.37 36.6137C1817.37 67.8768 1843.99 106.188 1866.5 150.478C1886.77 190.361 1903.28 234.146 1915.57 280.623L1914.69 280.913C1888.73 182.792 1843.29 96.2973 1786.74 37.3646C1759.93 9.33855 1728.91 -13.8067 1697.04 -29.5692C1654.33 -50.6889 1620.47 -59.1159 1590.45 -56.0808C1578.34 -54.8567 1567.14 -52.0392 1556.21 -47.4708C1515.42 -30.4116 1488.7 14.6863 1473.47 49.5115C1464.52 69.8235 1457.54 91.2083 1450.79 111.889C1448.77 118.067 1446.69 124.453 1444.61 130.627C1439.29 146.418 1434.73 165.481 1429.89 185.66C1418.73 232.269 1406.07 285.097 1378.72 322.749C1363.73 343.373 1345.56 357.202 1323.15 365.023C1307.96 370.324 1291.77 372.939 1273.97 372.939Z' fill='%23A1A1A1'/%3E%3Cpath d='M1293.53 378.031C1263.7 378.031 1235.03 369.459 1210.5 362.127C1187.42 355.23 1164.19 346.61 1139.47 335.779C1119.96 327.166 1100.84 317.594 1082.65 307.324C1028.13 276.575 979.516 232.439 935.109 189.323C926.042 180.52 916.883 171.447 908.027 162.673C895.731 150.488 883.015 137.89 870.274 125.749C829.153 86.6743 785.291 60.0996 739.909 46.7633C681.202 29.5148 620.329 32.7045 553.812 56.5186C519.564 68.7791 485.299 85.3587 454.72 104.465C431.135 119.199 411.18 137.801 390.054 157.495C388.557 158.89 387.056 160.29 385.547 161.691L384.73 162.455C379.594 167.247 374.284 172.201 368.9 177.173C356.001 189.14 341.795 201.517 325.365 210.973C306.292 221.949 287.065 227.423 266.576 227.707C230.613 228.209 193.96 216.898 158.516 205.959C156.031 205.193 153.558 204.429 151.096 203.675C127.723 196.501 110.672 192.248 95.8154 189.881C40.6023 181.092 -14.9661 178.328 -56.6425 182.3L-56.7271 181.199C-14.983 177.217 40.6672 179.984 95.9536 188.787C110.853 191.159 127.94 195.422 151.356 202.609C153.818 203.363 156.291 204.126 158.778 204.896C194.154 215.813 230.738 227.095 266.562 226.603C311.056 225.984 342.391 200.325 368.268 176.321C373.652 171.349 378.962 166.395 384.098 161.606L384.916 160.843C386.424 159.439 387.925 158.041 389.422 156.646C410.585 136.918 430.574 118.284 454.238 103.5C484.873 84.3585 519.203 67.7505 553.51 55.468C585.046 44.1793 614.666 37.6611 644.06 35.5409C676.85 33.1778 709.181 36.5947 740.157 45.6969C785.683 59.0742 829.675 85.7247 870.911 124.907C883.661 137.054 896.38 149.655 908.679 161.843C917.534 170.617 926.688 179.688 935.752 188.487C980.113 231.556 1028.67 275.644 1083.09 306.336C1101.26 316.59 1120.35 326.15 1139.83 334.751C1164.51 345.566 1187.71 354.173 1210.75 361.06C1246.13 371.636 1290.17 384.799 1333.68 370.948C1356.51 363.679 1374.66 349.876 1389.17 328.75C1416.12 289.504 1426.2 233.544 1435.1 184.168C1438.68 164.329 1442.05 145.591 1446.22 130.204C1447.76 124.512 1449.3 118.632 1450.8 112.943C1456.64 90.6938 1462.69 67.6842 1470.97 45.6212C1479.96 21.4316 1490.8 0.318222 1503.16 -17.1259C1517.11 -36.8101 1532.75 -51.3926 1549.66 -60.4696C1560.65 -66.3632 1571.96 -70.4489 1584.26 -72.9635C1600.83 -76.3488 1619.22 -76.2352 1638.91 -72.6259C1656.16 -69.4645 1675.02 -63.5047 1694.96 -54.9073C1728.17 -40.593 1760.29 -18.2649 1787.84 9.6634C1818.62 40.7814 1845.45 79.462 1867.59 124.636C1887.59 165.446 1903.19 210.216 1913.94 257.699L1912.98 257.97C1890.2 157.356 1845.52 69.4637 1787.18 10.4837C1759.72 -17.3531 1727.71 -39.6086 1694.61 -53.8756C1651.71 -72.3672 1615.67 -78.2576 1584.44 -71.875C1572.23 -69.3794 1560.99 -65.322 1550.09 -59.4726C1509.86 -37.8765 1485.35 9.82745 1471.88 46.0471C1463.62 68.0534 1457.58 91.0314 1451.74 113.252C1450.25 118.941 1448.7 124.825 1447.16 130.523C1443.01 145.859 1439.64 164.572 1436.07 184.385C1431.79 208.139 1426.94 235.061 1419.89 260.302C1411.83 289.22 1402.03 311.829 1389.95 329.422C1382.97 339.594 1374.94 348.251 1366.09 355.154C1356.58 362.578 1345.76 368.251 1333.95 372.011C1320.43 376.318 1306.86 378.031 1293.53 378.031Z' fill='%23A1A1A1'/%3E%3Cpath d='M1311.15 383.619C1301.29 383.619 1290.96 382.546 1280.05 380.404C1258.56 376.185 1237.99 368.531 1219.84 361.783C1196.96 353.274 1173.08 342.688 1148.85 330.324C1129.46 320.373 1110.47 309.501 1092.4 298.004C1040.55 265.043 995.872 221.217 946.999 171.513C942.656 167.096 938.245 162.59 933.981 158.23C917.187 141.07 899.823 123.326 882.132 106.56C840.329 67.0278 795.096 41.9864 747.689 32.1301C687.891 19.6962 623.123 30.4233 555.194 64.018C520.337 81.257 486.103 102.989 456.195 126.869C433.676 144.85 415.139 166.048 395.513 188.493C393.52 190.774 391.517 193.062 389.504 195.358C384.492 201.082 379.094 207.224 373.604 213.374C362.089 226.312 348.056 241.056 331.29 252.266C312.522 264.816 293.246 271.142 272.366 271.599C234.141 272.442 195.231 258.282 157.602 244.589L156.169 244.069C137.745 237.367 118.255 230.597 100.561 226.486C46.6286 213.957 -9.58002 205.259 -57.7061 201.993L-57.6412 200.813C-9.4644 204.082 46.795 212.787 100.776 225.328C118.52 229.452 138.044 236.232 156.496 242.942L157.929 243.463C195.477 257.124 234.307 271.249 272.346 270.413C316.275 269.448 346.615 242.024 372.856 212.531C378.347 206.385 383.739 200.242 388.751 194.522C390.764 192.229 392.767 189.938 394.76 187.66C414.42 165.177 432.991 143.941 455.583 125.901C485.547 101.973 519.846 80.2001 554.768 62.9295C586.639 47.1701 618.002 36.3105 647.98 30.6567C682.234 24.1984 715.847 24.2994 747.887 30.9596C795.474 40.8538 840.873 65.9835 882.817 105.652C900.522 122.433 917.895 140.183 934.697 157.353C938.961 161.71 943.372 166.215 947.715 170.632C996.54 220.289 1041.17 264.068 1092.93 296.972C1110.97 308.45 1129.93 319.307 1149.29 329.245C1173.49 341.59 1197.34 352.16 1220.18 360.656C1255.99 373.977 1300.55 390.55 1344.49 377.851C1367.93 371.077 1386.2 357.192 1400.35 335.397C1427 294.335 1434.71 232.443 1440.91 182.71C1443.33 163.338 1445.61 145.042 1448.7 130.15C1449.67 125.456 1450.65 120.619 1451.6 115.94C1456.54 91.6339 1461.65 66.4978 1469.3 42.1915C1481.13 4.36594 1503.59 -46.2343 1543.45 -72.4936C1554.46 -79.7438 1565.82 -85.0821 1578.17 -88.8113C1610.49 -98.7086 1648.97 -95.5063 1692.54 -79.299C1727 -66.4801 1760.12 -45.0354 1788.33 -17.2807C1819.89 13.689 1846.93 52.7419 1868.7 98.8021C1878.69 119.928 1887.51 142.493 1894.93 165.868C1902.02 188.196 1907.87 211.383 1912.32 234.784L1911.28 235.03C1891.69 131.917 1847.78 42.6269 1787.63 -16.3941C1759.53 -44.0447 1726.53 -65.4074 1692.2 -78.1789C1648.84 -94.3137 1610.56 -97.5066 1578.45 -87.6724C1566.18 -83.9715 1554.92 -78.6743 1543.99 -71.4777C1504.4 -45.4014 1482.07 4.94015 1470.3 42.5796C1462.66 66.8228 1457.57 91.9241 1452.63 116.199C1451.68 120.878 1450.7 125.718 1449.73 130.415C1446.65 145.257 1444.37 163.527 1441.96 182.871C1438.84 207.896 1435.31 236.26 1429.27 263.03C1422.33 293.792 1413.15 317.691 1401.2 336.091C1394.39 346.588 1386.42 355.441 1377.52 362.401C1367.93 369.901 1356.91 375.485 1344.76 378.993C1334.09 382.079 1322.96 383.619 1311.15 383.619Z' fill='%23A1A1A1'/%3E%3Cpath d='M1327.39 389.519C1315.58 389.519 1303.12 387.805 1289.8 384.37C1268.24 378.807 1247.49 369.576 1229.18 361.429C1206.13 351.176 1182.26 338.874 1158.22 324.863C1138.96 313.584 1120.09 301.411 1102.15 288.681C1052.76 253.676 1010.4 208.559 965.554 160.798C963.335 158.435 961.115 156.069 958.89 153.703C938.035 131.517 916.472 108.573 893.993 87.3716C851.462 47.3375 804.859 23.8263 755.478 17.491C693.451 9.5309 626.531 27.707 556.575 71.5082C521.582 93.4167 486.457 121.033 457.669 149.267C435.931 170.585 418.497 194.573 400.039 219.971C397.853 222.978 395.662 225.994 393.454 229.016C389.043 235.065 383.795 242.236 378.301 249.571C368.126 263.192 354.262 280.5 337.211 293.521C318.742 307.627 299.424 314.817 278.151 315.495C260.666 315.985 241.371 312.965 219.159 306.261C200.089 300.506 181.643 292.984 161.23 284.466C142.598 276.594 122.933 268.464 105.29 263.094C53.0293 247.186 -2.17255 233.257 -58.7788 221.684L-58.5758 220.444C-1.93567 232.02 53.2972 245.962 105.586 261.876C123.277 267.262 142.97 275.405 161.625 283.283C195.839 297.566 238.421 315.347 278.12 314.233C323.508 312.782 352.677 281.907 377.435 248.757C382.926 241.428 388.171 234.26 392.579 228.215C394.788 225.192 396.979 222.176 399.162 219.173C417.651 193.734 435.116 169.705 456.924 148.317C485.772 120.026 520.964 92.3566 556.025 70.4071C626.193 26.4734 693.344 8.24997 755.607 16.2385C779.48 19.302 802.93 26.4166 825.299 37.3835C849.302 49.1485 872.658 65.6461 894.72 86.4093C917.225 107.633 938.802 130.589 959.669 152.791C961.894 155.16 964.116 157.524 966.335 159.887C1011.14 207.606 1053.46 252.679 1102.75 287.618C1120.67 300.329 1139.51 312.486 1158.75 323.746C1182.75 337.735 1206.58 350.021 1229.6 360.259C1265.77 376.35 1310.79 396.375 1355.3 384.761C1379.41 378.47 1397.8 364.499 1411.51 342.054C1437.93 299.184 1442.64 233.695 1446.42 181.076C1447.77 162.256 1449.05 144.481 1451.17 130.106C1451.6 127.141 1452.04 124.159 1452.48 121.162C1456.43 94.0887 1460.52 66.091 1467.63 38.7685C1477.78 -0.530449 1498.09 -53.8188 1537.23 -84.5108C1548.15 -93.0736 1559.54 -99.6612 1572.07 -104.652C1589.47 -111.653 1608.86 -114.944 1629.71 -114.439C1648.74 -113.979 1669.06 -110.36 1690.1 -103.687C1725.8 -92.37 1759.93 -71.8087 1788.81 -44.2275C1821.15 -13.4092 1848.4 26.0222 1869.8 72.9658C1879.62 94.5051 1888.12 117.534 1895.07 141.411C1901.72 164.278 1906.98 187.985 1910.69 211.872L1909.57 212.086C1893.43 107.999 1849.14 14.926 1788.08 -43.2684C1759.32 -70.7297 1725.33 -91.2058 1689.79 -102.479C1645.96 -116.38 1605.38 -116.72 1572.44 -103.469C1560.02 -98.516 1548.71 -91.9788 1537.87 -83.4823C1499 -53.0016 1478.81 0.012207 1468.71 39.1156C1461.62 66.3655 1457.54 94.3221 1453.59 121.361C1453.15 124.358 1452.71 127.343 1452.28 130.308C1450.16 144.629 1448.89 162.382 1447.54 181.174C1443.75 233.944 1439.03 299.623 1412.44 342.767C1405.83 353.586 1397.93 362.641 1388.95 369.674C1379.29 377.239 1368.06 382.729 1355.56 385.991C1346.53 388.339 1337.19 389.519 1327.39 389.519Z' fill='%23A1A1A1'/%3E%3Cpath d='M1342.66 395.661C1329.19 395.661 1314.93 393.226 1299.56 388.336C1277.81 381.417 1256.93 370.611 1238.51 361.079C1215.23 349.033 1191.37 335.009 1167.59 319.405C1148.46 306.816 1129.72 293.341 1111.88 279.361C1067.95 244.946 1030.41 202.785 990.66 158.148C984.162 150.851 977.442 143.307 970.775 135.889C947.339 109.829 927.327 88.3402 905.846 68.1827C862.557 27.6186 814.586 5.63753 763.262 2.84848C698.77 -0.656738 629.69 24.9621 557.946 78.9918C522.304 105.835 487.21 138.742 459.13 171.655C437.976 196.45 421.438 223.441 403.931 252.016C401.762 255.556 399.585 259.109 397.394 262.665C393.491 269.009 388.324 277.37 382.991 285.753C360.548 321.115 331.227 357.52 283.93 359.382C282.455 359.436 280.975 359.461 279.497 359.461C242.564 359.461 204.859 343.108 166.284 324.85L163.876 323.702C144.769 314.577 126.72 305.961 110.014 299.689C47.0537 276.051 -13.8364 256.099 -59.8501 241.359L-59.5201 240.068C-13.4951 254.815 47.4119 274.77 110.395 298.417C127.146 304.705 145.215 313.334 164.347 322.468L166.753 323.617C206.74 342.544 245.79 359.426 283.888 358.044C330.66 356.202 359.736 320.077 382.013 284.98C387.343 276.604 392.504 268.249 396.407 261.907C398.598 258.349 400.772 254.799 402.941 251.259C420.477 222.64 437.04 195.605 458.261 170.73C486.398 137.748 521.563 104.775 557.274 77.8781C590.42 52.9156 623.576 33.7488 655.822 20.9047C692.82 6.16759 728.988 -0.357025 763.318 1.5076C814.907 4.30927 863.121 26.3976 906.613 67.151C928.125 87.34 948.157 108.851 971.615 134.934C978.285 142.351 985.005 149.898 991.506 157.195C1031.22 201.788 1068.72 243.908 1112.57 278.254C1130.38 292.218 1149.1 305.671 1168.19 318.24C1191.94 333.826 1215.76 347.828 1239.01 359.855C1275.5 378.738 1320.91 402.237 1366.1 391.658C1390.81 385.875 1409.31 371.822 1422.67 348.699C1448.76 303.876 1450.33 234.702 1451.59 179.12C1452 160.985 1452.39 143.853 1453.63 130.05L1453.66 129.734C1456.45 98.8243 1459.33 66.8639 1465.95 35.3295C1471.67 7.82397 1479.65 -16.9051 1489.66 -38.1763C1500.94 -62.1576 1514.85 -81.7945 1531 -96.5442C1541.81 -106.413 1553.24 -114.253 1565.95 -120.51C1600.29 -137.512 1642.37 -140.137 1687.65 -128.094C1705.87 -123.248 1723.84 -115.907 1741.07 -106.277C1758.4 -96.5915 1774.62 -84.7823 1789.29 -71.1841C1822.41 -40.5141 1849.87 -0.710373 1870.89 47.1229C1889.79 90.1164 1902.99 139.161 1909.05 188.951L1907.87 189.13C1894.89 82.5664 1851.39 -11.9391 1788.52 -70.1524C1759.12 -97.4181 1724.14 -117.005 1687.37 -126.782C1642.36 -138.755 1600.54 -136.159 1566.44 -119.273C1553.83 -113.064 1542.49 -105.287 1531.76 -95.4967C1501.6 -67.9565 1479.25 -22.6094 1467.12 35.6418C1460.52 67.0942 1457.64 99.0105 1454.86 129.876L1454.83 130.192C1453.59 143.944 1453.2 161.051 1452.79 179.161C1451.52 234.913 1449.95 304.295 1423.68 349.434C1417.24 360.584 1409.39 369.834 1400.36 376.927C1390.62 384.575 1379.18 389.973 1366.35 392.98C1358.7 394.766 1350.83 395.661 1342.66 395.661Z' fill='%23A1A1A1'/%3E%3Cpath d='M284.808 403.388C268.293 403.388 250.309 399.788 230.012 392.437C209.845 385.133 189.901 375.05 171.35 365.244C167.991 363.458 164.658 361.676 161.347 359.906C144.866 351.094 129.299 342.771 114.749 336.287C56.736 310.444 1.43829 287.217 -52.0404 264.76L-60.9014 261.037L-60.4558 259.708L-51.5948 263.431C1.88668 285.895 57.1928 309.122 115.218 334.971C129.806 341.471 145.393 349.803 161.894 358.628C165.202 360.398 168.536 362.18 171.892 363.963C209.972 384.092 250.43 403.6 289.67 401.861C337.906 399.615 366.813 357.577 386.605 321.209C391.675 311.908 396.56 302.639 400.248 295.603C402.285 291.726 404.307 287.851 406.323 283.986C423.047 251.947 438.842 221.684 459.616 193.15C487.036 155.492 522.167 117.209 558.541 85.3587C592.287 55.8088 626.341 32.4616 659.76 15.9671C698.091 -2.95352 735.532 -12.7719 771.04 -13.2168C824.471 -14.1065 874.097 6.4579 918.521 47.8991C943.146 70.8992 965.225 95.7798 983.579 117.086C993.565 128.68 1003.55 140.565 1013.21 152.059C1047.4 192.749 1082.75 234.822 1122.4 268.899C1140.11 284.125 1158.7 298.878 1177.65 312.744C1201.1 329.867 1224.91 345.585 1248.43 359.461C1285.2 381.148 1330.95 408.14 1376.92 398.561C1402.21 393.289 1420.84 379.154 1433.85 355.35C1459.58 308.495 1457.85 235.531 1456.45 176.905C1456.03 159.568 1455.64 143.19 1456.11 130.005C1457.17 100.282 1458.76 65.7376 1464.28 31.9032C1468.93 3.23349 1475.96 -22.704 1485.16 -45.1867C1495.56 -70.6193 1508.9 -91.9409 1524.78 -108.562C1535.31 -119.576 1547.11 -128.924 1559.85 -136.351C1578.03 -146.983 1598.43 -153.669 1620.48 -156.218C1641.14 -158.607 1662.92 -157.351 1685.21 -152.489C1704.01 -148.387 1722.54 -141.642 1740.29 -132.436C1758.15 -123.172 1774.8 -111.631 1789.77 -98.1342C1807.04 -82.5926 1822.91 -64.2398 1836.95 -43.5839C1850.26 -24.0133 1862.05 -2.18684 1872 21.2865C1890.62 65.2013 1902.87 115.259 1907.43 166.039L1906.17 166.181C1896.38 57.1339 1853.66 -38.8009 1788.98 -97.0268C1759.35 -123.725 1722.42 -142.926 1684.97 -151.094C1638.66 -161.194 1595.6 -155.66 1560.44 -135.092C1547.8 -127.725 1536.1 -118.449 1525.65 -107.524C1495.71 -76.2068 1475.48 -29.2128 1465.53 32.1587C1460.02 65.9017 1458.43 100.386 1457.38 130.062C1456.91 143.2 1457.3 159.552 1457.72 176.867C1458.4 205.789 1459.18 238.573 1456.57 270.265C1453.53 307.04 1446.45 335.113 1434.93 356.091C1428.66 367.569 1420.87 377.018 1411.78 384.174C1401.97 391.904 1390.31 397.214 1377.15 399.955C1370.51 401.341 1363.87 401.968 1357.28 401.968C1317.77 401.968 1279.5 379.385 1247.84 360.713C1224.29 346.815 1200.44 331.075 1176.96 313.927C1157.98 300.042 1139.37 285.267 1121.63 270.019C1081.9 235.872 1046.51 193.756 1012.29 153.028C1002.63 141.537 992.648 129.655 982.668 118.067C964.34 96.7862 942.292 71.9404 917.711 48.9845C873.528 7.7641 824.192 -12.6805 771.06 -11.8034C687.62 -10.7559 609.862 42.2138 559.325 86.4693C523.024 118.256 487.964 156.457 460.603 194.04C439.891 222.489 424.118 252.704 407.42 284.693C405.404 288.558 403.379 292.432 401.343 296.313C397.651 303.352 392.764 312.628 387.69 321.938C379.382 337.205 366.339 359.429 349.062 376.088C340.673 384.177 331.744 390.535 322.525 394.986C312.245 399.949 301.207 402.738 289.724 403.271C288.096 403.35 286.458 403.388 284.808 403.388Z' fill='%23A1A1A1'/%3E%3Cpath d='M290.11 447.312C273.575 447.312 255.628 443.435 235.438 435.522C214.535 427.332 193.869 415.816 176.412 405.628C171.048 402.492 165.695 399.312 160.518 396.236C146.045 387.638 132.372 379.514 119.482 372.882C73.1886 349.062 27.1974 325.806 -17.2822 303.314C-31.9949 295.874 -47.2069 288.182 -61.9507 280.711L-61.3979 279.345C-46.6541 286.816 -31.4422 294.508 -16.7294 301.948C27.7502 324.44 73.747 347.699 120.043 371.522C132.968 378.173 146.657 386.304 161.147 394.914C166.322 397.99 171.674 401.167 177.033 404.303C213.238 425.423 255.233 447.779 295.445 445.675C344.818 443.031 372.549 397.128 391.196 357.435C395.976 347.267 400.598 337.057 404.089 329.299C405.883 325.317 407.665 321.339 409.445 317.37C425.441 281.67 440.548 247.953 460.972 215.573C487.535 173.46 522.638 129.873 559.807 92.8424C611.571 41.4944 691.576 -21.1391 778.759 -27.9319C834.203 -32.3678 885.234 -13.3304 930.427 28.6566C950.732 47.53 970.812 69.2996 995.539 99.2502C1008.04 114.385 1020.44 130.072 1032.43 145.238C1063.63 184.698 1095.88 225.502 1132.23 259.56C1149.84 276.064 1168.3 292.114 1187.11 307.264C1209.88 325.592 1233.68 343.026 1257.86 359.085C1294.99 383.603 1341.21 414.121 1387.72 405.483C1413.23 400.845 1432.5 386.222 1445.01 362.023C1470.39 313.047 1464.95 232.922 1460.97 174.419C1459.85 158 1458.8 142.493 1458.59 129.983C1458.13 102.181 1458.17 65.5231 1462.62 28.4989C1470.29 -35.6585 1489.12 -85.8107 1518.57 -120.557C1528.89 -132.798 1540.73 -143.434 1553.75 -152.17C1572.27 -164.614 1593.17 -172.984 1615.87 -177.045C1637.26 -180.868 1659.76 -180.808 1682.77 -176.865C1702.18 -173.464 1721.27 -167.299 1739.5 -158.547C1757.91 -149.706 1774.99 -138.443 1790.26 -125.069C1807.91 -109.615 1824.03 -91.1995 1838.18 -70.329C1851.59 -50.5502 1863.34 -28.4146 1873.11 -4.53105C1891.44 40.3081 1902.75 91.3753 1905.81 143.149L1904.47 143.247C1897.88 31.7107 1855.95 -65.6565 1789.43 -123.886C1759.28 -150.303 1721.32 -168.592 1682.57 -175.382C1634.79 -183.569 1590.49 -175.098 1554.44 -150.883C1541.53 -142.219 1529.79 -131.669 1519.55 -119.525C1490.29 -85.0094 1471.58 -35.1411 1463.95 28.7008C1459.51 65.624 1459.48 102.21 1459.93 129.958C1460.14 142.424 1461.2 157.912 1462.31 174.308C1464.37 204.549 1466.69 238.828 1465.36 272.294C1463.81 311.261 1457.54 340.859 1446.18 362.777C1440.06 374.599 1432.34 384.253 1423.2 391.472C1413.3 399.299 1401.44 404.511 1387.95 406.966C1367.02 410.85 1344.5 407.36 1319.09 396.296C1297.01 386.676 1275.85 372.706 1257.18 360.382C1232.97 344.301 1209.14 326.841 1186.33 308.488C1167.5 293.316 1149.01 277.244 1131.38 260.718C1094.95 226.59 1062.66 185.742 1031.43 146.241C1019.44 131.078 1007.04 115.401 994.558 100.279C969.873 70.3818 949.83 48.6532 929.573 29.824C884.647 -11.9232 833.941 -30.8471 778.849 -26.4395C692.042 -19.672 612.302 42.769 560.693 93.9624C523.596 130.917 488.567 174.412 462.061 216.437C441.693 248.726 426.608 282.396 410.638 318.042C408.858 322.014 407.076 325.992 405.282 329.974C401.788 337.738 397.163 347.957 392.377 358.136C373.567 398.182 345.557 444.495 295.505 447.174C293.725 447.265 291.923 447.312 290.11 447.312Z' fill='%23A1A1A1'/%3E%3Cpath d='M295.518 491.24C250.34 491.24 202.935 460.198 160.912 432.677C147.999 424.221 135.802 416.233 124.211 409.478L-63 300.387L-62.3485 298.989L124.862 408.08C136.484 414.851 148.695 422.849 161.626 431.317C205.273 459.901 254.747 492.3 301.221 489.492C351.682 486.448 378.265 436.68 395.786 393.668C401.517 379.6 407.05 365.285 412.403 351.441C427.042 313.581 442.178 274.43 462.323 237.993C478.318 209.061 498.189 178.719 519.786 150.252C543.478 119.02 568.846 90.3662 595.177 65.0881C624.211 37.2198 653.732 14.1661 682.918 -3.42946C715.201 -22.8896 747.004 -35.5949 777.45 -41.1951C838.442 -52.4112 893.914 -35.3898 942.322 9.40201C982.552 46.6218 1016.74 92.6473 1049.81 137.158C1078.59 175.902 1108.35 215.961 1142.05 250.206C1180.98 289.757 1223.11 326.258 1267.28 358.688C1304.49 386.014 1350.8 420.025 1398.53 412.38C1438.85 405.925 1462.15 375.751 1469.79 320.128C1476.28 272.815 1470.1 216.69 1465.14 171.595C1463.45 156.227 1461.85 141.711 1461.07 129.94C1456.74 65.0471 1459.5 11.478 1469.5 -33.825C1475.74 -62.0908 1484.94 -87.2868 1496.86 -108.713C1510.16 -132.647 1527.25 -152.599 1547.64 -168.014C1565.28 -181.351 1585.16 -191.037 1606.73 -196.804C1627.27 -202.294 1648.89 -204.133 1670.99 -202.272C1714.46 -198.612 1756.99 -180.767 1790.73 -152.028C1808.77 -136.666 1825.14 -118.184 1839.4 -97.0989C1852.92 -77.115 1864.62 -54.667 1874.2 -30.3734C1892.24 15.3902 1902.6 67.4702 1904.16 120.232L1902.75 120.285C1899.43 7.92862 1857.23 -93.4012 1789.87 -150.769C1718.34 -211.692 1616.8 -218.397 1548.43 -166.705C1480.7 -115.499 1452.58 -18.5042 1462.47 129.823C1463.25 141.556 1464.85 156.054 1466.54 171.403C1471.51 216.595 1477.7 272.84 1471.18 320.367C1467.62 346.254 1460.48 367.058 1449.95 382.206C1444.03 390.721 1436.89 397.681 1428.73 402.887C1420.05 408.427 1409.96 412.147 1398.73 413.945C1394.14 414.68 1389.48 415.05 1384.73 415.05C1367.43 415.05 1349.01 410.156 1328.82 400.243C1306.08 389.074 1284.13 372.958 1266.5 360.01C1222.27 327.532 1180.08 290.985 1141.1 251.376C1107.32 217.059 1077.53 176.953 1048.72 138.168C1015.69 93.7137 981.545 47.745 941.417 10.6198C893.333 -33.866 838.241 -50.7769 777.67 -39.6365C655.145 -17.1033 528.932 120.506 463.513 238.826C443.422 275.162 428.306 314.259 413.686 352.069C408.331 365.919 402.795 380.243 397.058 394.324C385.425 422.88 373.936 443.328 360.901 458.668C352.765 468.24 343.938 475.787 334.665 481.097C324.355 487 313.125 490.357 301.286 491.073C299.374 491.183 297.447 491.24 295.518 491.24Z' fill='%23A1A1A1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 150px 0px 100px 0px;
+
+    .card {
+        padding: 30px 32px;
+        border-radius: 8px;
+        border: 1px solid #e3e3e3;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='46' height='53' viewBox='0 0 46 53' fill='none'%3E%3Ccircle cx='1.89738' cy='51.1129' r='1.29337' transform='rotate(-90 1.89738 51.1129)' fill='%237D54A2'/%3E%3Ccircle cx='8.93156' cy='51.1129' r='1.29337' transform='rotate(-90 8.93156 51.1129)' fill='%237D54A2'/%3E%3Ccircle cx='15.9652' cy='51.1134' r='1.29337' transform='rotate(-90 15.9652 51.1134)' fill='%237D54A2'/%3E%3Ccircle cx='22.9994' cy='51.1134' r='1.29337' transform='rotate(-90 22.9994 51.1134)' fill='%237D54A2'/%3E%3Ccircle cx='30.0336' cy='51.1134' r='1.29337' transform='rotate(-90 30.0336 51.1134)' fill='%237D54A2'/%3E%3Ccircle cx='44.1025' cy='51.1134' r='1.29337' transform='rotate(-90 44.1025 51.1134)' fill='%237D54A2'/%3E%3Ccircle cx='37.0683' cy='51.1134' r='1.29337' transform='rotate(-90 37.0683 51.1134)' fill='%237D54A2'/%3E%3Ccircle cx='1.89738' cy='44.0792' r='1.29337' transform='rotate(-90 1.89738 44.0792)' fill='%237D54A2'/%3E%3Ccircle cx='8.93156' cy='44.0792' r='1.29337' transform='rotate(-90 8.93156 44.0792)' fill='%237D54A2'/%3E%3Ccircle cx='15.9652' cy='44.0792' r='1.29337' transform='rotate(-90 15.9652 44.0792)' fill='%237D54A2'/%3E%3Ccircle cx='22.9994' cy='44.0792' r='1.29337' transform='rotate(-90 22.9994 44.0792)' fill='%237D54A2'/%3E%3Ccircle cx='30.0336' cy='44.0792' r='1.29337' transform='rotate(-90 30.0336 44.0792)' fill='%237D54A2'/%3E%3Ccircle cx='44.1025' cy='44.0792' r='1.29337' transform='rotate(-90 44.1025 44.0792)' fill='%237D54A2'/%3E%3Ccircle cx='37.0678' cy='44.0792' r='1.29337' transform='rotate(-90 37.0678 44.0792)' fill='%237D54A2'/%3E%3Ccircle cx='1.89738' cy='37.045' r='1.29337' transform='rotate(-90 1.89738 37.045)' fill='%237D54A2'/%3E%3Ccircle cx='1.89738' cy='15.943' r='1.29337' transform='rotate(-90 1.89738 15.943)' fill='%237D54A2'/%3E%3Ccircle cx='8.93156' cy='37.045' r='1.29337' transform='rotate(-90 8.93156 37.045)' fill='%237D54A2'/%3E%3Ccircle cx='8.93156' cy='15.943' r='1.29337' transform='rotate(-90 8.93156 15.943)' fill='%237D54A2'/%3E%3Ccircle cx='15.9657' cy='37.045' r='1.29337' transform='rotate(-90 15.9657 37.045)' fill='%237D54A2'/%3E%3Ccircle cx='15.9657' cy='15.943' r='1.29337' transform='rotate(-90 15.9657 15.943)' fill='%237D54A2'/%3E%3Ccircle cx='22.9994' cy='37.045' r='1.29337' transform='rotate(-90 22.9994 37.045)' fill='%237D54A2'/%3E%3Ccircle cx='22.9994' cy='15.943' r='1.29337' transform='rotate(-90 22.9994 15.943)' fill='%237D54A2'/%3E%3Ccircle cx='30.0336' cy='37.045' r='1.29337' transform='rotate(-90 30.0336 37.045)' fill='%237D54A2'/%3E%3Ccircle cx='30.0336' cy='15.943' r='1.29337' transform='rotate(-90 30.0336 15.943)' fill='%237D54A2'/%3E%3Ccircle cx='44.1025' cy='37.045' r='1.29337' transform='rotate(-90 44.1025 37.045)' fill='%237D54A2'/%3E%3Ccircle cx='44.1025' cy='15.943' r='1.29337' transform='rotate(-90 44.1025 15.943)' fill='%237D54A2'/%3E%3Ccircle cx='37.0678' cy='37.045' r='1.29337' transform='rotate(-90 37.0678 37.045)' fill='%237D54A2'/%3E%3Ccircle cx='37.0683' cy='15.943' r='1.29337' transform='rotate(-90 37.0683 15.943)' fill='%237D54A2'/%3E%3Ccircle cx='1.89738' cy='30.0108' r='1.29337' transform='rotate(-90 1.89738 30.0108)' fill='%237D54A2'/%3E%3Ccircle cx='1.89738' cy='8.90878' r='1.29337' transform='rotate(-90 1.89738 8.90878)' fill='%237D54A2'/%3E%3Ccircle cx='8.93156' cy='30.0108' r='1.29337' transform='rotate(-90 8.93156 30.0108)' fill='%237D54A2'/%3E%3Ccircle cx='8.93156' cy='8.90878' r='1.29337' transform='rotate(-90 8.93156 8.90878)' fill='%237D54A2'/%3E%3Ccircle cx='15.9657' cy='30.0108' r='1.29337' transform='rotate(-90 15.9657 30.0108)' fill='%237D54A2'/%3E%3Ccircle cx='15.9657' cy='8.90878' r='1.29337' transform='rotate(-90 15.9657 8.90878)' fill='%237D54A2'/%3E%3Ccircle cx='22.9994' cy='30.0108' r='1.29337' transform='rotate(-90 22.9994 30.0108)' fill='%237D54A2'/%3E%3Ccircle cx='22.9994' cy='8.90878' r='1.29337' transform='rotate(-90 22.9994 8.90878)' fill='%237D54A2'/%3E%3Ccircle cx='30.0336' cy='30.0113' r='1.29337' transform='rotate(-90 30.0336 30.0113)' fill='%237D54A2'/%3E%3Ccircle cx='30.0336' cy='8.90878' r='1.29337' transform='rotate(-90 30.0336 8.90878)' fill='%237D54A2'/%3E%3Ccircle cx='44.1025' cy='30.0113' r='1.29337' transform='rotate(-90 44.1025 30.0113)' fill='%237D54A2'/%3E%3Ccircle cx='44.1025' cy='8.90878' r='1.29337' transform='rotate(-90 44.1025 8.90878)' fill='%237D54A2'/%3E%3Ccircle cx='37.0678' cy='30.0113' r='1.29337' transform='rotate(-90 37.0678 30.0113)' fill='%237D54A2'/%3E%3Ccircle cx='37.0683' cy='8.90878' r='1.29337' transform='rotate(-90 37.0683 8.90878)' fill='%237D54A2'/%3E%3Ccircle cx='1.89738' cy='22.9766' r='1.29337' transform='rotate(-90 1.89738 22.9766)' fill='%237D54A2'/%3E%3Ccircle cx='1.89738' cy='1.8746' r='1.29337' transform='rotate(-90 1.89738 1.8746)' fill='%237D54A2'/%3E%3Ccircle cx='8.93156' cy='22.9766' r='1.29337' transform='rotate(-90 8.93156 22.9766)' fill='%237D54A2'/%3E%3Ccircle cx='8.93156' cy='1.8746' r='1.29337' transform='rotate(-90 8.93156 1.8746)' fill='%237D54A2'/%3E%3Ccircle cx='15.9652' cy='22.9771' r='1.29337' transform='rotate(-90 15.9652 22.9771)' fill='%237D54A2'/%3E%3Ccircle cx='15.9657' cy='1.8746' r='1.29337' transform='rotate(-90 15.9657 1.8746)' fill='%237D54A2'/%3E%3Ccircle cx='22.9994' cy='22.9771' r='1.29337' transform='rotate(-90 22.9994 22.9771)' fill='%237D54A2'/%3E%3Ccircle cx='22.9994' cy='1.8746' r='1.29337' transform='rotate(-90 22.9994 1.8746)' fill='%237D54A2'/%3E%3Ccircle cx='30.0336' cy='22.9771' r='1.29337' transform='rotate(-90 30.0336 22.9771)' fill='%237D54A2'/%3E%3Ccircle cx='30.0336' cy='1.87508' r='1.29337' transform='rotate(-90 30.0336 1.87508)' fill='%237D54A2'/%3E%3Ccircle cx='44.1025' cy='22.9771' r='1.29337' transform='rotate(-90 44.1025 22.9771)' fill='%237D54A2'/%3E%3Ccircle cx='44.1025' cy='1.87508' r='1.29337' transform='rotate(-90 44.1025 1.87508)' fill='%237D54A2'/%3E%3Ccircle cx='37.0683' cy='22.9771' r='1.29337' transform='rotate(-90 37.0683 22.9771)' fill='%237D54A2'/%3E%3Ccircle cx='37.0683' cy='1.87508' r='1.29337' transform='rotate(-90 37.0683 1.87508)' fill='%237D54A2'/%3E%3C/svg%3E");
+        background-position: 18px 18px;
+        background-repeat: no-repeat;
+    }
+
+    h3 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        text-transform: capitalize;
+        color: $black;
+        margin-top: 16px;
+    }
+
+    .card-body {
+        padding: 0px;
+    }
+
+    h4 {
+        color: $primary;
+
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        /* 142.857% */
+        text-transform: capitalize;
+        margin-bottom: 16px;
+    }
+
+    p {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        text-transform: capitalize;
+    }
+
+    .dr-img {
+        width: 100px;
+        border-radius: 7px;
+    }
+
+    .doctorsReview {
+        margin-top: 41px;
+    }
+
+    .navigation-btn {
+        position: relative;
+        height: 46px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        margin-top: 60px;
+        gap: 18px;
+    }
+
+    .swiper-button-next {
+        position: static;
+        width: 46.603px;
+        height: 46.603px;
+        background-color: #c3fffa;
+        border-radius: 100%;
+
+        padding: 0;
+
+        &::after {
+            font-size: 20px;
+            color: #1db8ab;
+            font-weight: 700;
+        }
+    }
+
+    .swiper-button-prev {
+        position: static;
+        width: 46.603px;
+        height: 46.603px;
+        background-color: #c3fffa;
+        border-radius: 100%;
+        padding: 0;
+
+        &::after {
+            font-size: 20px;
+            color: #1db8ab;
+            font-weight: 700;
+        }
+    }
+}
+
+.healthcare-program-sec {
+    .heading {
+        margin-bottom: 30px;
+    }
+
+    img {
+        border-radius: 8px;
+    }
+
+    .card-content {
+        position: absolute;
+        bottom: 18px;
+        left: 18px;
+        right: 18px;
+        background: $white;
+        border-radius: 8px;
+        height: 87px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+
+        &::before {
+            content: url("data:image/svg+xml,%3Csvg width='49' height='45' viewBox='0 0 49 45' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='0.694759' cy='-3.04987' r='47.3867' fill='%23FECA09' fill-opacity='0.24'/%3E%3C/svg%3E%0A");
+            position: absolute;
+            left: 0;
+            top: 0;
+
+            z-index: 0;
+        }
+
+        &::after {
+            content: url("data:image/svg+xml,%3Csvg width='22' height='27' viewBox='0 0 22 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='1.576' cy='26.2814' r='0.680985' transform='rotate(-90 1.576 26.2814)' fill='%23643B87'/%3E%3Ccircle cx='7.56868' cy='26.2814' r='0.680985' transform='rotate(-90 7.56868 26.2814)' fill='%23643B87'/%3E%3Ccircle cx='13.5618' cy='26.2814' r='0.680985' transform='rotate(-90 13.5618 26.2814)' fill='%23643B87'/%3E%3Ccircle cx='19.554' cy='26.2814' r='0.680985' transform='rotate(-90 19.554 26.2814)' fill='%23643B87'/%3E%3Ccircle cx='1.576' cy='20.2887' r='0.680985' transform='rotate(-90 1.576 20.2887)' fill='%23643B87'/%3E%3Ccircle cx='7.56868' cy='20.2887' r='0.680985' transform='rotate(-90 7.56868 20.2887)' fill='%23643B87'/%3E%3Ccircle cx='13.5618' cy='20.2887' r='0.680985' transform='rotate(-90 13.5618 20.2887)' fill='%23643B87'/%3E%3Ccircle cx='19.554' cy='20.2887' r='0.680985' transform='rotate(-90 19.554 20.2887)' fill='%23643B87'/%3E%3Ccircle cx='1.576' cy='14.2961' r='0.680985' transform='rotate(-90 1.576 14.2961)' fill='%23643B87'/%3E%3Ccircle cx='7.56868' cy='14.2961' r='0.680985' transform='rotate(-90 7.56868 14.2961)' fill='%23643B87'/%3E%3Ccircle cx='13.5618' cy='14.2961' r='0.680985' transform='rotate(-90 13.5618 14.2961)' fill='%23643B87'/%3E%3Ccircle cx='19.554' cy='14.2961' r='0.680985' transform='rotate(-90 19.554 14.2961)' fill='%23643B87'/%3E%3Ccircle cx='1.576' cy='8.30339' r='0.680985' transform='rotate(-90 1.576 8.30339)' fill='%23643B87'/%3E%3Ccircle cx='7.56868' cy='8.30339' r='0.680985' transform='rotate(-90 7.56868 8.30339)' fill='%23643B87'/%3E%3Ccircle cx='13.5618' cy='8.30339' r='0.680985' transform='rotate(-90 13.5618 8.30339)' fill='%23643B87'/%3E%3Ccircle cx='19.554' cy='8.30339' r='0.680985' transform='rotate(-90 19.554 8.30339)' fill='%23643B87'/%3E%3Ccircle cx='1.576' cy='2.31071' r='0.680985' transform='rotate(-90 1.576 2.31071)' fill='%23643B87'/%3E%3Ccircle cx='7.56868' cy='2.31071' r='0.680985' transform='rotate(-90 7.56868 2.31071)' fill='%23643B87'/%3E%3Ccircle cx='13.5618' cy='2.31071' r='0.680985' transform='rotate(-90 13.5618 2.31071)' fill='%23643B87'/%3E%3Ccircle cx='19.554' cy='2.31071' r='0.680985' transform='rotate(-90 19.554 2.31071)' fill='%23643B87'/%3E%3C/svg%3E%0A");
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: 0;
+        }
+    }
+
+    a {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        /* 150% */
+        text-transform: capitalize;
+        color: $black;
+        text-decoration: none;
+    }
+}
+
+.our-blog-sec {
+    background-color: #f9f9fb;
+
+    .btn-primary {
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: capitalize;
+
+        padding: 11px 49px;
+        border-radius: 10px;
+    }
+
+    .card {
+        border-radius: 11px;
+        border: 1px solid #d0d0d0;
+        overflow: hidden;
+    }
+
+    .card-body {
+        padding: 26px;
+    }
+
+    .bg-secondary {
+        border-radius: 5px;
+        background-color: #d8d8d8 !important;
+        display: inline-block;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        padding: 3px 29px;
+        color: $black;
+    }
+
+    h3 {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        color: $black;
+        margin: 16px 0px;
+    }
+
+    p {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        /* 185.714% */
+        margin-bottom: 8px;
+    }
+
+    a {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 171.429% */
+        text-decoration-line: underline;
+    }
+
+    .mt-35 {
+        margin-top: 35px;
+    }
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.testimonials-sec {
+    .content-inside {
+        h3 {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 24px;
+        }
+
+        span {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            /* 171.429% */
+            color: $black;
+        }
+
+        .powerd-img {
+            margin-bottom: 3px;
+            display: block;
+        }
+
+        .review-google {
+            margin-left: -5px;
+        }
+    }
+
+    .card {
+        border-radius: 10px;
+        background: #fff;
+        box-shadow: 0px 0px 20px 0px #ededed;
+        border: 0;
+        padding: 33px;
+
+        p {
+            margin: 20px 0px 27px;
+        }
+
+        img {
+            width: 55.513px;
+            height: 55.513px;
+            border-radius: 100%;
+            object-fit: cover;
+        }
+
+        h3 {
+            font-size: 14px;
+            font-weight: 600;
+            color: #32435c;
+            margin-bottom: 5px;
+        }
+
+        small {
+            color: #969696;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 12px;
+            /* 100% */
+        }
+    }
+
+    .btn-outline-primary {
+        margin-top: 53px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        /* 133.333% */
+        padding: 13px 39px;
+    }
+}
+
+.from-our-blog-sec {
+    background: #f9f9fb;
+
+    .card {
+        border-radius: 12px;
+        box-shadow: 0px 0px 10px 0px rgba(18, 17, 39, 0.08);
+        overflow: hidden;
+
+        border: 0px;
+
+        a {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 180%;
+            /* 28.8px */
+        }
+    }
+
+    .card-body {
+        padding: 32px 24px;
+
+        h3 {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 140%;
+            margin: 8px 0px 24px;
+            color: $black;
+        }
+
+        p {
+            margin-bottom: 11px;
+        }
+
+        .spn-common {
+            font-size: 14px;
+
+            font-weight: 600;
+            line-height: 170%;
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+        }
+
+        .line {
+            color: #d0d0d0;
+            display: inline-block;
+            margin: 0px 10px;
+        }
+    }
+
+    .join-column {
+        border-radius: 10px;
+        background: $primary;
+        padding: 50px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+
+        &::before {
+            content: url("../img/Dotted Shape.svg");
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        &::after {
+            content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='67' height='67' viewBox='0 0 67 67' fill='none'%3E%3Ccircle cx='10.0352' cy='29.5451' r='1.5711' transform='rotate(-90 10.0352 29.5451)' fill='white' fill-opacity='0.44'/%3E%3Ccircle cx='23.8604' cy='29.5451' r='1.5711' transform='rotate(-90 23.8604 29.5451)' fill='white' fill-opacity='0.44'/%3E%3Ccircle cx='37.6866' cy='29.5451' r='1.5711' transform='rotate(-90 37.6866 29.5451)' fill='white' fill-opacity='0.44'/%3E%3Ccircle cx='51.5118' cy='29.5451' r='1.5711' transform='rotate(-90 51.5118 29.5451)' fill='white' fill-opacity='0.44'/%3E%3Ccircle cx='65.1568' cy='29.5451' r='1.5711' transform='rotate(-90 65.1568 29.5451)' fill='white' fill-opacity='0.44'/%3E%3Ccircle cx='10.0352' cy='56.883' r='1.5711' transform='rotate(-90 10.0352 56.883)' fill='white' fill-opacity='0.44'/%3E%3Ccircle cx='10.0352' cy='15.7199' r='1.5711' transform='rotate(-90 10.0352 15.7199)' fill='white' fill-opacity='0.44'/%3E%3Ccircle cx='23.8604' cy='56.883' r='1.5711' transform='rotate(-90 23.8604 56.883)' fill='white' fill-opacity='0.44'/%3E%3Ccircle cx='23.8604' cy='15.7199' r='1.5711' transform='rotate(-90 23.8604 15.7199)' fill='white' fill-opacity='0.44'/%3E%3Ccircle cx='37.6866' cy='56.883' r='1.5711' transform='rotate(-90 37.6866 56.883)' fill='white' fill-opacity='0.44'/%3E%3Ccircle cx='37.6866' cy='15.7199' r='1.5711' transform='rotate(-90 37.6866 15.7199)' fill='white' fill-opacity='0.44'/%3E%3Ccircle cx='51.5118' cy='56.883' r='1.5711' transform='rotate(-90 51.5118 56.883)' fill='white' fill-opacity='0.44'/%3E%3Ccircle cx='65.1568' cy='56.883' r='1.5711' transform='rotate(-90 65.1568 56.883)' fill='white' fill-opacity='0.44'/%3E%3Ccircle cx='51.5118' cy='15.7199' r='1.5711' transform='rotate(-90 51.5118 15.7199)' fill='white' fill-opacity='0.44'/%3E%3Ccircle cx='65.1568' cy='15.7199' r='1.5711' transform='rotate(-90 65.1568 15.7199)' fill='white' fill-opacity='0.44'/%3E%3Ccircle cx='10.0352' cy='43.0568' r='1.5711' transform='rotate(-90 10.0352 43.0568)' fill='white' fill-opacity='0.44'/%3E%3Ccircle cx='10.0352' cy='1.89374' r='1.5711' transform='rotate(-90 10.0352 1.89374)' fill='white' fill-opacity='0.44'/%3E%3Ccircle cx='23.8604' cy='43.0568' r='1.5711' transform='rotate(-90 23.8604 43.0568)' fill='white' fill-opacity='0.44'/%3E%3Ccircle cx='23.8604' cy='1.89374' r='1.5711' transform='rotate(-90 23.8604 1.89374)' fill='white' fill-opacity='0.44'/%3E%3Ccircle cx='37.6866' cy='43.0568' r='1.5711' transform='rotate(-90 37.6866 43.0568)' fill='white' fill-opacity='0.44'/%3E%3Ccircle cx='37.6866' cy='1.89374' r='1.5711' transform='rotate(-90 37.6866 1.89374)' fill='white' fill-opacity='0.44'/%3E%3Ccircle cx='51.5118' cy='43.0568' r='1.5711' transform='rotate(-90 51.5118 43.0568)' fill='white' fill-opacity='0.44'/%3E%3Ccircle cx='65.1568' cy='43.0568' r='1.5711' transform='rotate(-90 65.1568 43.0568)' fill='white' fill-opacity='0.44'/%3E%3Ccircle cx='51.5118' cy='1.89374' r='1.5711' transform='rotate(-90 51.5118 1.89374)' fill='white' fill-opacity='0.44'/%3E%3Ccircle cx='65.1568' cy='1.89374' r='1.5711' transform='rotate(-90 65.1568 1.89374)' fill='white' fill-opacity='0.44'/%3E%3C/svg%3E");
+            position: absolute;
+            left: -5px;
+            bottom: -10px;
+        }
+
+        h3 {
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 32px;
+            /* 118.519% */
+            color: $white;
+            margin-bottom: 4px;
+        }
+
+        p {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            /* 150% */
+            color: $white;
+            margin-bottom: 56px;
+        }
+
+        .form-control {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24.5px;
+            /* 175% */
+            background-color: transparent;
+            border-radius: 0px;
+            height: 28px;
+            padding: 0px;
+            padding-bottom: 10px;
+            color: $white;
+            border-bottom: 1px solid #e0dddd;
+
+            &::placeholder {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24.5px;
+                /* 175% */
+                color: $white;
+            }
+        }
+
+        .btn-success {
+            margin-top: 16px;
+            display: block;
+            border-radius: 10px;
+            box-shadow: 0px 4px 42px 0px rgba(0, 0, 0, 0.01);
+            width: 100%;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24.5px;
+            /* 163.333% */
+            padding: 14px;
+        }
+    }
+
+    .btn-outline-primary {
+        margin-top: 42px;
+        padding: 13px 54px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        border-radius: 10px;
+    }
+}
+
+.instagram-sec {
+    img {
+        border-radius: 8px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .btn-instagram {
+        border-radius: 10px;
+        background: linear-gradient(83deg,
+                #feda75 -4.98%,
+                #fa7e1e 24.8%,
+                #d62976 41.5%,
+                #962fbf 61.93%,
+                #4f5bd5 86.25%);
+        color: #fff;
+        margin-top: 37px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-decoration-line: underline;
+        text-transform: capitalize;
+        padding: 12px 36px;
+        border: 0px !important;
+
+        svg {
+            margin-right: 8px;
+        }
+
+        &:active {
+            color: #fff;
+        }
+
+        &:focus {
+            color: #fff;
+        }
+    }
+}
+
+.footer {
+    background: #1E1E1E;
+    position: relative;
+    overflow: hidden;
+    &::after{
+        content: url('../img/footer-right-shape.svg');
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 0;
+
+
+    }
+    &::before{
+        content: url('../img/footer-left-shape.svg');
+        left: 0;
+        top: 0;
+        position: absolute;
+        z-index: 0;
+    }
+
+    .footer-main {
+        padding: 22px 0px 44px;
+    }
+
+    .contact-ul {
+        margin-bottom: 57px;
+
+        a {
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
+            /* 133.333% */
+            color: $white;
+            text-decoration: none;
+        }
+
+        .flex-grow-1 {
+            margin-left: 11px;
+        }
+
+        li {
+            margin-bottom: 21px;
+
+            &:last-child {
+                margin: 0px;
+            }
+        }
+    }
+
+    .social-ul {
+        li {
+            padding-right: 10px;
+
+            &:last-child {
+                margin: 0px;
+            }
+        }
+    }
+
+    h2 {
+        color: $white;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        /* 133.333% */
+        margin-bottom: 25px;
+    }
+
+    .links-ul {
+        a {
+            color: #9e9e9e;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 32px;
+            /* 213.333% */
+            text-decoration: none;
+        }
+
+        li {
+            margin-bottom: 6px;
+
+            &:last-child {
+                margin: 0;
+            }
+        }
+    }
+
+    iframe {
+        height: 275px;
+        border-radius: 5px;
+        width: 100%;
+    }
+
+    .iframe-column {
+        background: #343434;
+        padding: 13px;
+        border-radius: 8px;
+    }
+
+    .footer-bar {
+        padding: 35px 0px;
+        border-top: 1px solid rgba(136, 144, 164, 0.43);
+    }
+
+    .footer-bar-link {
+        a {
+            color: #8890a4;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        &.link-left {
+            a {
+                margin-right: 31px;
+
+                &:last-child {
+                    margin: 0px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1589px;
+    }
+}
+
+@media (max-width: 1399.98px) {
+
+    header {
+        .nav-link {
+            font-size: 13px;
+            padding: 0px 10px !important;
+        }
+        .navbar-brand {
+            padding: 0px;
+            max-width: 120px;
+        }
+        .btn-contact {
+            .btn {
+                font-size: 13px;
+                margin-right: 8px;
+                span {
+                    width: 43px;
+                }
+            }
+            svg {
+                width: 18px;
+            }
+        }
+        
+    }
+    .need-medicale-cta{
+        .heading-title {
+            font-size: 28px;
+        }
+        .btn {
+            font-size: 14px;
+         }
+         .btn-outline-primary {
+            margin-right: 15px;
+            padding: 12px 40px;
+        }
+    }
+    
+    
+}
+@media (max-width: 1199.98px) {
+    .heading-title {
+        font-size: 28px;
+      
+    }
+    p {
+        font-size: 14px;
+    }
+    .canwinn-aarogya-dham {
+        .icon-col {
+            margin-top: 38px;
+        }
+        .content {
+            padding-left: 0px;
+        }
+    }
+    .canWinn-seva-polyclinic {
+        .content {
+            h2 {
+                font-size: 15px;
+            }
+        }
+        .card-title {
+            font-size: 18px;
+         }
+         .linktext {
+            font-size: 15px;
+         }
+    }
+    .search-polyclinics-sec {
+        .download-column {
+          
+            padding: 40px 30px 0px;
+        }
+    }
+    .canwinn-doctors-examine-sec {
+        .card-body {
+            padding: 0px 0px 0px 15px;
+        }
+        .icon {
+            svg {
+                width: 56px;
+            }
+        }
+        
+    }
+    
+    
+    
+    
+}
+@media (max-width: 991.98px) {
+
+    .home-slider-sec {
+        .carousel {
+            button {
+                span {
+                    height: 55px;
+                    width: 30px;
+                   
+                }
+            }
+        }
+    }
+    .py-65 {
+        padding: 40px 0px;
+    }
+    .founder-message-sec {
+        .founders-message {
+            &::before {
+            display: none;
+            }
+        }
+    }
+    .search-polyclinics-sec {
+        .input-group {
+            margin-bottom: 65px;
+        }
+        .download-column {
+            margin-bottom: 65px;
+        }
+        .insde-blood-donor {
+            padding-bottom: 30px;
+        }
+       
+    }
+    .becomecanWinn-Member-sec {
+        margin-top: 40px;
+        .medical-emergency-list {
+            padding-left: 0;
+           
+        }
+    }
+    .our-partners-column {
+        .our-partners-insde {
+            padding: 60px 0px 60px;
+    
+        }
+    }
+    .canWinn-seva-polyclinic {
+        .heading {
+            &::after {
+                display: none;
+            }
+        }
+    }
+
+    header{
+        .offcanvas-header {
+            padding-bottom: 0;
+         
+        }
+         .nav-link {
+            font-size: 16px;
+            padding: 10px 0px !important;
+            &:last-child{
+                margin-bottom: 10px;
+            }
+        }
+        .offcanvas {
+       
+            width: 364px !important;
+        }
+    }
+        
+  
+
+    
+    
+    
+
+}
+@media (max-width: 767.98px) {
+.home-slider-sec{
+    .carousel-item{
+        img{
+            height: 220px;
+            object-fit: cover;
+            object-position: top;
+        }
+    }
+}
+header {
+	.navbar {
+		padding: 9px 0px 15px;
+	}
+    .social-media {
+        display: none;
+    }
+    .call-btn {
+        a {
+            margin-right: 0px;
+        }
+    }
+    .link-text {
+		a {
+            font-size: 12px;
+			&::after {
+				content: "";
+                height: 22px;
+				margin: 0px 10px;
+			}
+		}
+	}
+    .call-btn {
+		a {
+			font-size: 12px;
+		}
+	}
+    
+}
+.heading-title {
+    font-size: 24px;
+}
+.py-65 {
+    padding: 30px 0px;
+}
+
+.healthcare-program-sec {
+	.card-content {
+	
+		height: 60px;
+        bottom: 10px;
+    left: 10px;
+    right: 10px;
+	
+	}
+    a {
+        font-size: 14px;
+    }
+}
+.doctors-review-sec {
+	.swiper-button-prev {
+		width: 40.603px;
+		height: 40.603px;
+
+	}
+    .swiper-button-next {
+       
+        width: 40.603px;
+		height: 40.603px;
+       }
+}
+.need-medicale-column {
+    margin-top: 30px;
+    margin-bottom: 30px;   
+    padding: 30px;
+   
+}
+header {
+    .offcanvas-title{
+	.navbar-brand {
+        img{
+            max-width: 140px;
+    }
+	}
+}
+.btn-contact {
+	.btn {
+		font-size: 12px;
+		margin-right: 5px;
+	}
+}
+
+}
+.canWinn-seva-polyclinic {
+	.swiper-button-prev {
+		
+		width: 40.603px;
+		height: 40.603px;
+		
+	}
+    .swiper-button-next{
+        width: 40.603px;
+		height: 40.603px;
+	
+    }
+    .sevaPolyclinic {
+        margin-top: 30px;
+    }
+}
+.need-medicale-cta{
+    .btn-contents {
+        .btn{
+            margin-bottom: 6px;
+        }
+    }
+}
+
+.our-partners-column {
+	.our-partners-insde {
+		padding: 30px 0px 30px;
+	}
+}
+
+.from-our-blog-sec {
+	.btn-outline-primary {
+		margin-top: 30px;
+		
+	}
+}
+.footer {
+	.footer-main {
+		padding: 22px 0px 22px;
+	}
+    .footer-bar {
+        padding: 10px 0px;
+     }
+     .footer-bar-link {
+        a{
+            font-size: 12px;
+        }
+		&.link-left {
+			a {
+				margin-right: 10px;
+			}
+		}
+	}
+    .contact-ul {
+        margin-bottom: 30px;
+    }
+}
+.testimonials-sec {
+	.btn-outline-primary {
+		margin-top: 20px;
+	
+	}
+}
+
+
+
+
+}
+

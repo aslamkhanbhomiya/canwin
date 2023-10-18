@@ -1,0 +1,40 @@
+<svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="52" height="52" fill="#1E1E1E"/>
+<g id="Slide 16:9 - 1" clip-path="url(#clip0_0_1)">
+<rect width="1920" height="12739" transform="translate(-1556 -10923)" fill="white"/>
+<rect id="Rectangle 4415" x="-1556" y="-226.946" width="1920" height="877.241" fill="#F9F9FB"/>
+<g id="newsletter">
+<rect id="Rectangle 4376" x="-364" y="0.182617" width="416" height="501.817" rx="9" fill="#7E55A1"/>
+<g id="Group 1000001876">
+<mask id="mask0_0_1" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-364" y="0" width="416" height="502">
+<rect id="Rectangle 4379" x="-364" y="0.182617" width="416" height="501.817" rx="10" fill="#3056D3"/>
+</mask>
+<g mask="url(#mask0_0_1)">
+<g id="Dotted Shape">
+<circle id="Ellipse 3" cx="1.85211" cy="50.3303" r="1.5711" transform="rotate(-90 1.85211 50.3303)" fill="white" fill-opacity="0.44"/>
+<circle id="Ellipse 51" cx="1.85211" cy="9.16718" r="1.5711" transform="rotate(-90 1.85211 9.16718)" fill="white" fill-opacity="0.44"/>
+<circle id="Ellipse 8" cx="15.6783" cy="50.3303" r="1.5711" transform="rotate(-90 15.6783 50.3303)" fill="white" fill-opacity="0.44"/>
+<circle id="Ellipse 52" cx="15.6783" cy="9.16718" r="1.5711" transform="rotate(-90 15.6783 9.16718)" fill="white" fill-opacity="0.44"/>
+<circle id="Ellipse 13" cx="29.5035" cy="50.3303" r="1.5711" transform="rotate(-90 29.5035 50.3303)" fill="white" fill-opacity="0.44"/>
+<circle id="Ellipse 53" cx="29.5035" cy="9.16718" r="1.5711" transform="rotate(-90 29.5035 9.16718)" fill="white" fill-opacity="0.44"/>
+<circle id="Ellipse 18" cx="43.3296" cy="50.3303" r="1.5711" transform="rotate(-90 43.3296 50.3303)" fill="white" fill-opacity="0.44"/>
+<circle id="Ellipse 54" cx="43.3296" cy="9.16718" r="1.5711" transform="rotate(-90 43.3296 9.16718)" fill="white" fill-opacity="0.44"/>
+<circle id="Ellipse 4" cx="1.85211" cy="36.5051" r="1.5711" transform="rotate(-90 1.85211 36.5051)" fill="white" fill-opacity="0.44"/>
+<circle id="Ellipse 9" cx="15.6783" cy="36.5051" r="1.5711" transform="rotate(-90 15.6783 36.5051)" fill="white" fill-opacity="0.44"/>
+<circle id="Ellipse 14" cx="29.5035" cy="36.5051" r="1.5711" transform="rotate(-90 29.5035 36.5051)" fill="white" fill-opacity="0.44"/>
+<circle id="Ellipse 19" cx="43.3296" cy="36.5051" r="1.5711" transform="rotate(-90 43.3296 36.5051)" fill="white" fill-opacity="0.44"/>
+<circle id="Ellipse 5" cx="1.85211" cy="22.6789" r="1.5711" transform="rotate(-90 1.85211 22.6789)" fill="white" fill-opacity="0.44"/>
+<circle id="Ellipse 10" cx="15.6783" cy="22.6789" r="1.5711" transform="rotate(-90 15.6783 22.6789)" fill="white" fill-opacity="0.44"/>
+<circle id="Ellipse 15" cx="29.5035" cy="22.6789" r="1.5711" transform="rotate(-90 29.5035 22.6789)" fill="white" fill-opacity="0.44"/>
+<circle id="Ellipse 20" cx="43.3296" cy="22.6789" r="1.5711" transform="rotate(-90 43.3296 22.6789)" fill="white" fill-opacity="0.44"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1920" height="12739" fill="white" transform="translate(-1556 -10923)"/>
+</clipPath>
+</defs>
+</svg>
